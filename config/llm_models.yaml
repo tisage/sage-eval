@@ -1,0 +1,289 @@
+# SAGE Framework - LLM Model Configuration
+# 配置用于Layer 4-6的LLM模型
+
+# Development mode configuration (Mock LLM)
+development:
+  enabled: true
+  use_mock: true
+  mock_deterministic: true
+
+# Production mode configuration (Real LLM APIs)
+production:
+  enabled: true
+  use_mock: false
+
+  # Primary models for evaluation
+  models:
+    # OpenAI GPT-4.1-mini (current baseline)
+    - provider: openai
+      model_name: gpt-4.1-mini
+      api_key_env: OPENAI_API_KEY
+      temperature: 0.5      # Default temperature (0.0-1.0)
+      max_tokens: 2000      # Default max tokens
+      timeout: 30
+      retry_attempts: 3
+
+    # OpenAI GPT-5 (latest flagship model)
+    - provider: openai
+      model_name: gpt-5
+      api_key_env: OPENAI_API_KEY
+      reasoning_effort: medium  # GPT-5 uses reasoning.effort instead of temperature
+      max_tokens: 128000        # GPT-5 supports 128K output; 100K leaves headroom
+      timeout: 60
+      retry_attempts: 3
+
+    # OpenAI GPT-5 Mini (cost-effective reasoning model)
+    - provider: openai
+      model_name: gpt-5-mini
+      api_key_env: OPENAI_API_KEY
+      reasoning_effort: medium  # GPT-5 uses reasoning.effort instead of temperature
+      max_tokens: 128000        # GPT-5-mini supports 128K output; 100K leaves headroom
+      timeout: 30
+      retry_attempts: 3
+      response_format:          # Force strict JSON mode to prevent malformed output
+        type: json_object
+
+    # OpenAI GPT-5.1 (latest flagship - 2025)
+    - provider: openai
+      model_name: gpt-5.1
+      api_key_env: OPENAI_API_KEY
+      reasoning_effort: medium  # GPT-5 uses reasoning.effort instead of temperature
+      max_tokens: 128000
+      timeout: 60
+      retry_attempts: 3
+
+    # OpenAI GPT-5.2 (latest flagship - December 2025)
+    - provider: openai
+      model_name: gpt-5.2
+      api_key_env: OPENAI_API_KEY
+      reasoning_effort: medium  # GPT-5 uses reasoning.effort instead of temperature
+      max_tokens: 128000
+      timeout: 60
+      retry_attempts: 3
+
+    # Google Gemini 3 Pro Preview (via OpenRouter)
+    - provider: openrouter
+      model_name: google/gemini-3-pro-preview
+      api_key_env: OPENROUTER_API_KEY
+      temperature: 0.5
+      max_tokens: 65536
+      timeout: 60
+      retry_attempts: 3
+
+    # Mistral Medium 3.1 (French flagship via OpenRouter)
+    - provider: openrouter
+      model_name: mistralai/mistral-medium-3.1
+      api_key_env: OPENROUTER_API_KEY
+      temperature: 0.5
+      max_tokens: 128000
+      timeout: 60
+      retry_attempts: 3
+
+    # DeepSeek V3.2 Exp (Chinese open-source via OpenRouter)
+    - provider: openrouter
+      model_name: deepseek/deepseek-v3.2-exp
+      api_key_env: OPENROUTER_API_KEY
+      temperature: 0.5
+      max_tokens: 128000
+      timeout: 60
+      retry_attempts: 3
+
+    # Google Gemini 2.5 Flash Lite (fast and efficient)
+    - provider: google
+      model_name: gemini-2.5-flash-lite
+      api_key_env: GOOGLE_API_KEY
+      thinking_budget: 8192     # Gemini 2.5 uses thinkingBudget for reasoning control
+      max_tokens: 65536         # Increased for literary works
+      timeout: 30
+      retry_attempts: 3
+
+    # Google Gemini 2.5 Pro (advanced reasoning)
+    - provider: google
+      model_name: gemini-2.5-pro
+      api_key_env: GOOGLE_API_KEY
+      thinking_budget: 8192     # Gemini 2.5 uses thinkingBudget for reasoning control
+      max_tokens: 65536         # Increased for literary works
+      timeout: 60
+      retry_attempts: 3
+
+# Layer-specific model assignment
+# Note: Layer-level parameters (temperature, max_tokens) override model defaults
+layer_assignment:
+  layer4_cultural:
+    primary_model: gpt-4.1-mini
+    fallback_model: gemini-2.5-flash-lite
+    # Optional: Override default parameters for this layer
+    # temperature: 0.3      # Lower temperature for more consistent cultural analysis
+    # max_tokens: 2000      # Adjust based on evaluation needs
+
+  layer5_emotional:
+    primary_model: gpt-4.1-mini
+    fallback_model: gemini-2.5-flash-lite
+    # Optional: Override default parameters for this layer
+    # temperature: 0.7      # Higher temperature for more creative emotional analysis
+    # max_tokens: 3000      # Emotional analysis often needs more detail
+
+  layer6_existential:
+    primary_model: gpt-4.1-mini
+    fallback_model: gemini-2.5-flash-lite
+    # Optional: Override default parameters for this layer
+    # temperature: 0.5      # Balanced for philosophical discussion
+    # max_tokens: 2500      # Existential analysis needs moderate detail
+
+# API configuration
+api_settings:
+  rate_limit_requests_per_minute: 60
+  rate_limit_tokens_per_minute: 90000
+  concurrent_requests: 3
+  exponential_backoff_base: 2
+  exponential_backoff_max_wait: 60
+
+# ==================== Evaluation Profiles ====================
+# Simplified profiles for experiments (2025-11 updated)
+profiles:
+  # GPT-5 Mini (American baseline model)
+  # Context: 400K tokens, Max output: 128K tokens
+  gpt5mini:
+    output_dir: results/gpt5mini
+    layer4_cultural:
+      primary_model: gpt-5-mini
+      reasoning_effort: medium  # GPT-5 uses reasoning.effort instead of temperature
+      max_tokens: 128000
+    layer5_emotional:
+      primary_model: gpt-5-mini
+      reasoning_effort: medium
+      max_tokens: 128000
+    layer6_existential:
+      primary_model: gpt-5-mini
+      reasoning_effort: medium
+      max_tokens: 128000
+
+  # GPT-5.1 (Latest OpenAI flagship - 2025)
+  # Context: 400K tokens, Max output: 128K tokens
+  gpt51:
+    output_dir: results/gpt51
+    layer4_cultural:
+      primary_model: gpt-5.1
+      reasoning_effort: medium  # GPT-5 uses reasoning.effort instead of temperature
+      max_tokens: 128000
+    layer5_emotional:
+      primary_model: gpt-5.1
+      reasoning_effort: medium
+      max_tokens: 128000
+    layer6_existential:
+      primary_model: gpt-5.1
+      reasoning_effort: medium
+      max_tokens: 128000
+
+  # GPT-5.2 (Latest OpenAI flagship - December 2025)
+  # Context: 400K tokens, Max output: 128K tokens
+  gpt52:
+    output_dir: results/gpt52
+    layer4_cultural:
+      primary_model: gpt-5.2
+      reasoning_effort: medium  # GPT-5 uses reasoning.effort instead of temperature
+      max_tokens: 128000
+    layer5_emotional:
+      primary_model: gpt-5.2
+      reasoning_effort: medium
+      max_tokens: 128000
+    layer6_existential:
+      primary_model: gpt-5.2
+      reasoning_effort: medium
+      max_tokens: 128000
+
+  # Gemini-3-Pro-Preview (Google latest flagship via OpenRouter)
+  # Context: 2M tokens, Max output: 128K tokens
+  gemini3:
+    output_dir: results/gemini3
+    layer4_cultural:
+      primary_model: google/gemini-3-pro-preview
+      provider: openrouter
+      api_key_env: OPENROUTER_API_KEY
+      temperature: 0.5
+      max_tokens: 65536
+    layer5_emotional:
+      primary_model: google/gemini-3-pro-preview
+      provider: openrouter
+      api_key_env: OPENROUTER_API_KEY
+      temperature: 0.5
+      max_tokens: 65536
+    layer6_existential:
+      primary_model: google/gemini-3-pro-preview
+      provider: openrouter
+      api_key_env: OPENROUTER_API_KEY
+      temperature: 0.5
+      max_tokens: 65536
+
+  # Mistral Medium 3.1 (French model - European cultural perspective)
+  # Context: 128K tokens
+  # Hypothesis: Better performance on European literature (French, Russian, German)
+  # IMPORTANT: Uses response_format for enforced JSON output
+  mistral:
+    output_dir: results/mistral
+    layer4_cultural:
+      primary_model: mistralai/mistral-medium-3.1
+      provider: openrouter
+      api_key_env: OPENROUTER_API_KEY
+      temperature: 0.5
+      max_tokens: 65536
+      response_format:
+        type: json_object
+    layer5_emotional:
+      primary_model: mistralai/mistral-medium-3.1
+      provider: openrouter
+      api_key_env: OPENROUTER_API_KEY
+      temperature: 0.5
+      max_tokens: 65536
+      response_format:
+        type: json_object
+    layer6_existential:
+      primary_model: mistralai/mistral-medium-3.1
+      provider: openrouter
+      api_key_env: OPENROUTER_API_KEY
+      temperature: 0.5
+      max_tokens: 65536
+      response_format:
+        type: json_object
+
+  # DeepSeek V3.2 Exp (Chinese model - Asian cultural perspective)
+  # Context: 128K tokens
+  # Hypothesis: Better performance on Asian literature (Chinese, Japanese)
+  deepseek:
+    output_dir: results/deepseek
+    layer4_cultural:
+      primary_model: deepseek/deepseek-v3.2-exp
+      provider: openrouter
+      api_key_env: OPENROUTER_API_KEY
+      temperature: 0.5
+      max_tokens: 65536
+    layer5_emotional:
+      primary_model: deepseek/deepseek-v3.2-exp
+      provider: openrouter
+      api_key_env: OPENROUTER_API_KEY
+      temperature: 0.5
+      max_tokens: 65536
+    layer6_existential:
+      primary_model: deepseek/deepseek-v3.2-exp
+      provider: openrouter
+      api_key_env: OPENROUTER_API_KEY
+      temperature: 0.5
+      max_tokens: 65536
+
+  # Legacy flagship profile (mixed models)
+  # GPT-5 context: 400K tokens, Max output: 128K tokens
+  # Gemini 2.5 Pro context: 1M tokens, Max output: 65K tokens
+  flagship:
+    output_dir: results/flagship
+    layer4_cultural:
+      primary_model: gpt-5
+      reasoning_effort: medium  # GPT-5 uses reasoning.effort instead of temperature
+      max_tokens: 128000
+    layer5_emotional:
+      primary_model: gemini-2.5-pro
+      thinking_budget: 8192     # Gemini uses thinkingBudget for reasoning control
+      max_tokens: 65536
+    layer6_existential:
+      primary_model: gpt-5
+      reasoning_effort: medium
+      max_tokens: 128000

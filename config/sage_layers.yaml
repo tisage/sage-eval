@@ -1,0 +1,146 @@
+layer1_language:
+  enabled: true
+  lexical_diversity:
+    ttr:
+      enabled: true
+      weight: 0.15
+    mtld:
+      enabled: true
+      weight: 0.2
+      min_tokens: 50
+  syntactic_complexity:
+    mean_sentence_length:
+      enabled: true
+      weight: 0.1
+    sentence_length_variance:
+      enabled: true
+      weight: 0.1
+    dependency_tree_depth:
+      enabled: false
+      weight: 0.15
+  rhetorical_density:
+    adjective_ratio:
+      enabled: true
+      weight: 0.05
+    adverb_ratio:
+      enabled: true
+      weight: 0.05
+    figurative_density:
+      enabled: true
+      weight: 0.2
+layer2_narrative:
+  enabled: true
+  segment_size: 100
+  use_spacy: false
+  entity_coherence:
+    density:
+      enabled: true
+      weight: 0.15
+    salient:
+      enabled: true
+      weight: 0.1
+    entropy:
+      enabled: true
+      weight: 0.1
+  emotional_arc:
+    intensity:
+      enabled: true
+      weight: 0.15
+    tension:
+      enabled: true
+      weight: 0.15
+  event_sequence:
+    density:
+      enabled: true
+      weight: 0.15
+    diversity:
+      enabled: true
+      weight: 0.1
+    consistency:
+      enabled: true
+      weight: 0.1
+layer3_thematic:
+  enabled: true
+  theme_extraction:
+    consistency:
+      enabled: true
+      weight: 0.1
+    diversity:
+      enabled: true
+      weight: 0.1
+    top_k: 10
+    segment_size: 200
+  semantic_network:
+    density:
+      enabled: true
+      weight: 0.1
+    centrality:
+      enabled: true
+      weight: 0.15
+    connectivity:
+      enabled: true
+      weight: 0.1
+    window_size: 5
+    min_cooccurrence: 2
+  concept_density:
+    abstract_density:
+      enabled: true
+      weight: 0.25
+    abstraction_ratio:
+      enabled: true
+      weight: 0.2
+layer4_cultural:
+  enabled: true
+  # NOTE: temperature parameter removed - model-specific parameters (reasoning_effort, thinking_budget)
+  # are now configured in llm_models.yaml based on the model being used
+  prompt_version: v1
+  max_text_length: 8000  # Max input text length for evaluation (not LLM token limit)
+  dimensions:
+    cultural_authenticity:
+      enabled: true
+      weight: 0.3
+    historical_accuracy:
+      enabled: true
+      weight: 0.25
+    social_context:
+      enabled: true
+      weight: 0.25
+    universal_vs_specific:
+      enabled: true
+      weight: 0.2
+layer5_emotional:
+  enabled: true
+  temperature: 0.0
+  prompt_version: v1
+  max_text_length: 8000
+  dimensions:
+    emotional_depth:
+      enabled: true
+      weight: 0.3
+    character_empathy:
+      enabled: true
+      weight: 0.25
+    emotional_authenticity:
+      enabled: true
+      weight: 0.25
+    reader_impact:
+      enabled: true
+      weight: 0.2
+layer6_existential:
+  enabled: true
+  temperature: 0.0
+  prompt_version: v1
+  max_text_length: 8000
+  dimensions:
+    life_philosophy:
+      enabled: true
+      weight: 0.3
+    moral_reflection:
+      enabled: true
+      weight: 0.25
+    human_condition:
+      enabled: true
+      weight: 0.25
+    meaning_exploration:
+      enabled: true
+      weight: 0.2

@@ -1,0 +1,30 @@
+
+\begin{table}[t]
+\centering
+\caption{Inter-Model Consistency Analysis Across SAGE Layers}
+\label{tab:inter_model_consistency}
+\small
+\begin{tabular}{llccc}
+\toprule
+\textbf{Layer} & \textbf{Metric} & \textbf{GPT vs Mis} & \textbf{GPT vs DS} & \textbf{Mis vs DS} \\
+\midrule
+Cultural Layer  & Pearson $r$ & 0.577 & 0.929 & 0.809 \\
+                & ICC(2,1) & 0.014 & 0.480 & -0.544 \\
+                & MAE & 0.243 & 0.131 & 0.329 \\
+\midrule
+Emotional Layer & Pearson $r$ & 0.853 & -0.303 & 0.064 \\
+                & ICC(2,1) & 0.536 & -0.644 & -0.843 \\
+                & MAE & 0.110 & 0.255 & 0.363 \\
+\midrule
+Existential Layer & Pearson $r$ & 0.984 & 0.974 & 0.984 \\
+                & ICC(2,1) & 0.956 & 0.131 & 0.049 \\
+                & MAE & 0.074 & 0.451 & 0.520 \\
+\bottomrule
+\end{tabular}
+\vspace{0.1cm}
+
+\small
+\textit{Notes:} Pearson $r$ = linear correlation, ICC(2,1) = intraclass correlation coefficient (absolute agreement),
+MAE = mean absolute error. Higher $r$ and ICC indicate better consistency; lower MAE indicates better agreement.
+ICC interpretation: $<0.40$ = poor, $0.40$--$0.59$ = moderate, $0.60$--$0.74$ = good, $\geq 0.75$ = excellent.
+\end{table}

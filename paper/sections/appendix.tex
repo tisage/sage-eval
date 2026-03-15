@@ -1,0 +1,137 @@
+\label{sec:appendix}
+
+\subsection*{Detailed Genre Comparison}
+
+\begin{table}[h]
+\centering
+\caption{Genre comparison across three analytical dimensions (detailed)}
+\label{tab:genre_comparison_appendix}
+\small
+\resizebox{\columnwidth}{!}{%
+\begin{tabular}{lcccccc}
+\toprule
+\textbf{Layer} & \textbf{Canon.} & \textbf{Pulp} & \textbf{LLM} & \textbf{Can-Pulp} & \textbf{Can-LLM} & \textbf{$p$} \\
+\midrule
+Cultural (L4)     & 3.96 & 3.83 & 2.55 & +0.13 & \textbf{+1.41} & $<$0.001*** \\
+                  & (0.41) & (0.36) & (0.62) & & & \\
+\midrule
+Emotional (L5)    & 4.15 & 4.04 & 3.36 & +0.11 & \textbf{+0.79} & $<$0.001*** \\
+                  & (0.31) & (0.24) & (0.59) & & & \\
+\midrule
+Existential (L6)  & 3.95 & 3.68 & 2.59 & +0.27 & \textbf{+1.36} & $<$0.001*** \\
+                  & (0.57) & (0.56) & (0.57) & & & \\
+\midrule
+\textbf{Average} & \textbf{4.02} & \textbf{3.85} & \textbf{2.83} & \textbf{+0.17} & \textbf{+1.19} & $<$\textbf{0.001***} \\
+\bottomrule
+\end{tabular}
+}
+\vspace{0.1cm}
+
+\small
+\textit{Notes:} Mean scores with standard deviations in parentheses. Can-Pulp/Can-LLM = score differences. Statistical significance: ***$p<0.001$. Effect sizes (Cohen's $d$) for Canonical vs LLM: L4 $d$=2.68, L5 $d$=1.68, L6 $d$=2.40 (all very large effects).
+\end{table}
+
+\subsection*{Iterative Evaluation Protocol}
+
+Table~\ref{tab:eval_protocol} summarizes the five-round iterative evaluation protocol. All three layers share the same round structure, with layer-specific adaptations noted.
+
+\begin{table}[h]
+\centering
+\caption{Five-round iterative evaluation protocol}
+\label{tab:eval_protocol}
+\small
+\resizebox{\columnwidth}{!}{%
+\begin{tabular}{clp{5.5cm}}
+\toprule
+\textbf{Round} & \textbf{Focus} & \textbf{Task} \\
+\midrule
+R1 & Initial Assessment & Extract layer-relevant content; score all 4 dimensions (1.0--5.0) with confidence ratings and textual evidence \\
+\midrule
+R2 & Bias Check & \textbf{L4}: Hallucination check (fabricated cultural/historical details). \textbf{L5/L6}: Projection bias check (imposing Western emotional norms or existentialist frameworks) \\
+\midrule
+R3 & Layer Boundary & Verify no cross-layer contamination (e.g., L5 must not evaluate cultural power structures [L4] or philosophical claims [L6]) \\
+\midrule
+R4 & Evidence Sufficiency & Assess evidence quality; adjust \textit{confidence} (not scores) if evidence is ambiguous or sparse \\
+\midrule
+R5 & Final Consolidation & Confirm or adjust final scores; convergence criterion: $|\Delta\text{score}| < 0.3$ from R4 to R5 \\
+\bottomrule
+\end{tabular}
+}
+\end{table}
+
+The independent validator receives the iterative evaluator's five-round output and performs single-pass cross-verification covering: (1)~independent scoring, (2)~projection bias detection, (3)~hallucination detection, (4)~reasoning quality assessment, and (5)~confidence calibration. Agreement between evaluator and validator is measured per dimension, with discrepancies $>$0.5 points flagged for review.
+
+\subsection*{Dimension Scoring Criteria}
+
+Each dimension is scored on a 1.0--5.0 scale. Table~\ref{tab:scoring_rubric} provides the scoring rubric applied uniformly across all layers.
+
+\begin{table}[h]
+\centering
+\caption{Scoring rubric for dimension evaluation}
+\label{tab:scoring_rubric}
+\small
+\begin{tabular}{cp{6.5cm}}
+\toprule
+\textbf{Score} & \textbf{Criteria} \\
+\midrule
+4.5--5.0 & \textbf{Exceptional}: Rich, multi-layered representation with extensive textual evidence; sophisticated treatment demonstrating mastery \\
+4.0--4.5 & \textbf{Strong}: Substantial representation with clear evidence; demonstrates depth and nuance \\
+3.0--3.5 & \textbf{Moderate}: Some representation present but limited in scope or depth; evidence adequate but not extensive \\
+2.0--2.5 & \textbf{Weak}: Minimal representation; surface-level treatment with sparse evidence \\
+1.0--1.5 & \textbf{Absent/Negligible}: Dimension effectively absent or trivially treated; no meaningful evidence \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection*{Prompt Template (Representative Example)}
+
+The following presents a condensed version of the content-limit system prompt for Layer~5 (Emotional-Psychological), illustrating the prompt structure shared across all three layers. Layer~4 and Layer~6 follow the same template with layer-specific dimension definitions and theoretical frameworks.
+
+\begin{quote}
+\small
+\ttfamily
+
+\textbf{System Prompt (condensed):}
+
+You are an expert literary-emotional analyst evaluating how texts represent emotions, psychological states, and affective experiences.
+
+\textbf{Core Principles:}\\
+1. Evidence Sovereignty: All scores must cite specific textual evidence.\\
+2. Strict Layer Boundary: Evaluate ONLY emotional-psychological content. Do NOT evaluate cultural power structures (Layer~4) or philosophical themes (Layer~6).\\
+3. Projection Awareness: Avoid imposing assumptions about ``how emotions should be expressed.'' Restrained expression $\neq$ shallow.\\
+4. Dimension Independence: Evaluate each dimension independently.
+
+\textbf{Mode: content-limit}\\
+Evaluate based SOLELY on textual evidence. Do NOT use prior knowledge about literary works or authors.
+
+\textbf{Dimensions:}\\
+1. AC (Affective Complexity) -- Multiplicity, contradiction, and evolution of emotional states. [Sedgwick, Berlant, Ngai]\\
+2. PI (Psychological Interiority) -- Depth and accessibility of characters' inner psychological worlds. [Cohn, Bruner, Bakhtin]\\
+3. EG (Emotional Granularity) -- Precision and differentiation of emotional vocabulary. [Barrett]\\
+4. ENC (Emotional-Narrative Coherence) -- Whether emotions arise organically from narrative situation. [New Criticism, James Wood]
+
+\medskip
+
+\textbf{Round 1 User Prompt (condensed):}
+
+ROUND 1/5: EMOTIONAL CONTENT EXTRACTION
+
+Step 1: Extract emotional content (explicit emotion words, psychological states, interior techniques, affective moments).\\
+Step 2: Score each dimension (1.0--5.0) with confidence (1--5), reasoning, and evidence strength.
+
+Output: JSON with extracted\_content, scores (per dimension: score, confidence, reasoning, evidence\_strength), overall\_score.
+
+\medskip
+
+\textbf{Round 2 User Prompt (condensed):}
+
+ROUND 2/5: PROJECTION BIAS CHECK
+
+Review Round~1. Ask critically:\\
+-- Did I penalize restrained emotional expression as ``shallow''?\\
+-- Did I apply Western emotional display norms?\\
+-- Did I reward explicit language without checking substance?\\
+Revise scores if bias detected; confirm if none found.
+\end{quote}
+
+Rounds 3--5 follow the protocol described in Table~\ref{tab:eval_protocol}. The complete prompt templates, including all JSON output schemas and layer-specific dimension definitions for Layers 4 and 6, are available in the project repository.

@@ -1,0 +1,2200 @@
+catalog_version: '1.0'
+total_stories: 54
+last_modified: '2025-11-21'
+stories:
+- id: henry_gift_of_magi
+  title: The Gift of the Magi
+  author: O. Henry
+  year: 1905
+  period:
+    era: modern
+    movement: realism
+  culture:
+    origin: american
+    cultural_sphere: western
+    setting: urban_american
+  genre:
+    primary: literary_fiction
+    secondary:
+    - irony
+    - twist_ending
+  themes:
+  - sacrifice
+  - love
+  - poverty
+  - materialism
+  - irony
+  narrative:
+    pov: third_person_omniscient
+    structure: linear
+    ending: ironic_twist
+    style: sentimental
+  translation:
+    is_translated: false
+  metadata:
+    word_count: 2065
+    language: english
+    copyright: public_domain
+    source_url: https://www.gutenberg.org/ebooks/7256
+    collected_date: '2025-01-15'
+    verified: true
+    clean_text: true
+  classification:
+    category: romance
+- title: In a Grove
+  author: Ryunosuke Akutagawa
+  year: 1922
+  period:
+    era: modern
+    movement: modernism
+  culture:
+    origin: japanese
+    cultural_sphere: eastern
+  genre:
+    primary: literary_fiction
+    secondary:
+    - psychological
+    - mystery
+    - crime
+  themes:
+  - truth and subjectivity
+  - justice and morality
+  - human nature and deception
+  - death
+  - honor and shame
+  narrative:
+    pov: multiple_first_person
+    structure: nonlinear
+    ending: ambiguous
+    style: minimalist
+  translation:
+    is_translated: true
+    original_language: japanese
+    translator: null
+  suggested_story_id: akutagawa_in_a_grove
+  metadata:
+    word_count: 3466
+    language: english
+    copyright: public_domain
+    collected_date: '2025-11-21'
+    verified: false
+    clean_text: true
+  id: akutagawa_in_a_grove
+  classification:
+    category: philosophical
+- title: Rashōmon
+  author: Ryūnosuke Akutagawa
+  year: 1915
+  period:
+    era: modern
+    movement: modernism
+  culture:
+    origin: japanese
+    cultural_sphere: eastern
+  genre:
+    primary: literary_fiction
+    secondary:
+    - psychological
+    - existential
+    - social_critique
+  themes:
+  - survival
+  - morality
+  - poverty
+  - desperation
+  - human_nature
+  narrative:
+    pov: third_person_limited
+    structure: linear
+    ending: ambiguous
+    style: minimalist
+  translation:
+    is_translated: true
+    original_language: japanese
+    translator: Takashi Kojima
+  suggested_story_id: akutagawa_rashomon
+  metadata:
+    word_count: 2200
+    language: english
+    copyright: public_domain
+    collected_date: '2025-11-21'
+    verified: false
+    clean_text: true
+  id: akutagawa_rashomon
+  classification:
+    category: existential
+- title: The School
+  author: Donald Barthelme
+  year: 1976
+  period:
+    era: modern
+    movement: postmodernism
+  culture:
+    origin: american
+    cultural_sphere: western
+  genre:
+    primary: literary_fiction
+    secondary:
+    - absurdist
+    - dark_humor
+    - metafiction
+  themes:
+  - death
+  - education
+  - absurdity
+  - childhood
+  - mortality
+  narrative:
+    pov: first_person
+    structure: linear
+    ending: ambiguous
+    style: minimalist
+  translation:
+    is_translated: false
+    original_language: null
+    translator: null
+  suggested_story_id: barthelme_school
+  metadata:
+    word_count: 1284
+    language: english
+    copyright: public_domain
+    collected_date: '2025-11-21'
+    verified: false
+    clean_text: true
+  id: barthelme_school
+  classification:
+    category: experimental
+- title: The Circular Ruins
+  author: Jorge Luis Borges
+  year: 1941
+  period:
+    era: modern
+    movement: modernism
+  culture:
+    origin: argentinian
+    cultural_sphere: latin_american
+  genre:
+    primary: literary_fiction
+    secondary:
+    - magical_realism
+    - philosophical
+    - fantasy
+  themes:
+  - reality_vs_illusion
+  - creation
+  - identity
+  - dreams
+  - existentialism
+  narrative:
+    pov: third_person_limited
+    structure: linear
+    ending: ambiguous
+    style: ornate
+  translation:
+    is_translated: true
+    original_language: spanish
+    translator: null
+  suggested_story_id: borges_circular_ruins
+  metadata:
+    word_count: 2215
+    language: english
+    copyright: public_domain
+    collected_date: '2025-11-21'
+    verified: false
+    clean_text: true
+  id: borges_circular_ruins
+  classification:
+    category: philosophical
+- title: The Garden of Forking Paths
+  author: Jorge Luis Borges
+  year: 1941
+  period:
+    era: modern
+    movement: modernism
+  culture:
+    origin: argentinian
+    cultural_sphere: latin_american
+  genre:
+    primary: literary_fiction
+    secondary:
+    - philosophical
+    - metafiction
+    - mystery
+  themes:
+  - time
+  - infinity
+  - labyrinth
+  - fate and free will
+  - identity
+  narrative:
+    pov: first_person
+    structure: nonlinear
+    ending: ambiguous
+    style: ornate
+  translation:
+    is_translated: true
+    original_language: spanish
+    translator: null
+  suggested_story_id: borges_garden_forking_paths
+  metadata:
+    word_count: 4416
+    language: english
+    copyright: public_domain
+    collected_date: '2025-11-21'
+    verified: false
+    clean_text: true
+  id: borges_garden_forking_paths
+  classification:
+    category: philosophical
+- title: The Library of Babel
+  author: Jorge Luis Borges
+  year: 1941
+  period:
+    era: modern
+    movement: modernism
+  culture:
+    origin: argentine
+    cultural_sphere: latin_american
+  genre:
+    primary: literary_fiction
+    secondary:
+    - philosophical
+    - speculative_fiction
+    - metafiction
+  themes:
+  - infinity
+  - knowledge
+  - chaos and order
+  - the search for meaning
+  - the limits of language
+  narrative:
+    pov: first_person
+    structure: nonlinear
+    ending: ambiguous
+    style: ornate
+  translation:
+    is_translated: true
+    original_language: spanish
+    translator: Andrew Hurley
+  suggested_story_id: borges_library_of_babel
+  metadata:
+    word_count: 3171
+    language: english
+    copyright: public_domain
+    collected_date: '2025-11-21'
+    verified: false
+    clean_text: true
+  id: borges_library_of_babel
+  classification:
+    category: philosophical
+- title: What We Talk About When We Talk About Love
+  author: Raymond Carver
+  year: 1981
+  period:
+    era: modern
+    movement: minimalism
+  culture:
+    origin: american
+    cultural_sphere: western
+  genre:
+    primary: literary_fiction
+    secondary:
+    - psychological
+    - domestic_drama
+  themes:
+  - love
+  - violence
+  - communication
+  - human_relationships
+  - existential_uncertainty
+  narrative:
+    pov: first_person
+    structure: linear
+    ending: ambiguous
+    style: minimalist
+  translation:
+    is_translated: false
+    original_language: null
+    translator: null
+  suggested_story_id: carver_what_we_talk_about_when_we_talk_about_love
+  metadata:
+    word_count: 4632
+    language: english
+    copyright: public_domain
+    collected_date: '2025-11-21'
+    verified: false
+    clean_text: true
+  id: carver_what_we_talk_about_when_we_talk_about_love
+  classification:
+    category: psychological
+- title: The Lady with the Dog
+  author: Anton Chekhov
+  year: 1899
+  period:
+    era: 19th_century
+    movement: realism
+  culture:
+    origin: russian
+    cultural_sphere: western
+  genre:
+    primary: literary_fiction
+    secondary:
+    - psychological
+    - romance
+    - social_criticism
+  themes:
+  - love
+  - adultery
+  - loneliness
+  - self-discovery
+  - societal_constraints
+  narrative:
+    pov: third_person_limited
+    structure: linear
+    ending: ambiguous
+    style: minimalist
+  translation:
+    is_translated: true
+    original_language: russian
+    translator: null
+  suggested_story_id: chekhov_lady_with_dog
+  metadata:
+    word_count: 6678
+    language: english
+    copyright: public_domain
+    collected_date: '2025-11-21'
+    verified: false
+    clean_text: true
+  id: chekhov_lady_with_dog
+  classification:
+    category: romance
+- title: The Bet
+  author: Anton Chekhov
+  year: 1889
+  period:
+    era: 19th_century
+    movement: realism
+  culture:
+    origin: russian
+    cultural_sphere: western
+  genre:
+    primary: literary_fiction
+    secondary:
+    - psychological
+    - philosophical
+  themes:
+  - morality
+  - freedom and imprisonment
+  - human nature
+  - greed and renunciation
+  - the value of life
+  narrative:
+    pov: third_person_limited
+    structure: linear
+    ending: twist
+    style: minimalist
+  translation:
+    is_translated: true
+    original_language: russian
+    translator: null
+  suggested_story_id: chekhov_the_bet
+  metadata:
+    word_count: 2693
+    language: english
+    copyright: public_domain
+    collected_date: '2025-11-21'
+    verified: false
+    clean_text: true
+  id: chekhov_the_bet
+  classification:
+    category: philosophical
+- title: Ward No. 6
+  author: Anton Chekhov
+  year: 1892
+  period:
+    era: 19th_century
+    movement: realism
+  culture:
+    origin: russian
+    cultural_sphere: western
+  genre:
+    primary: literary_fiction
+    secondary:
+    - psychological
+    - social_criticism
+    - existential
+  themes:
+  - madness
+  - isolation
+  - injustice
+  - suffering
+  - human_dignity
+  narrative:
+    pov: third_person_omniscient
+    structure: linear
+    ending: ambiguous
+    style: detailed
+  translation:
+    is_translated: true
+    original_language: russian
+    translator: null
+  suggested_story_id: chekhov_ward_no_6
+  metadata:
+    word_count: 20405
+    language: english
+    copyright: public_domain
+    collected_date: '2025-11-21'
+    verified: false
+    clean_text: true
+  id: chekhov_ward_no_6
+  classification:
+    category: social_critique
+- title: The Story of An Hour
+  author: Kate Chopin
+  year: 1894
+  period:
+    era: 19th_century
+    movement: realism
+  culture:
+    origin: american
+    cultural_sphere: western
+  genre:
+    primary: literary_fiction
+    secondary:
+    - psychological
+    - feminist
+    - domestic_drama
+  themes:
+  - freedom
+  - death
+  - identity
+  - marriage
+  - self-assertion
+  narrative:
+    pov: third_person_limited
+    structure: linear
+    ending: twist
+    style: minimalist
+  translation:
+    is_translated: false
+    original_language: null
+    translator: null
+  suggested_story_id: chopin_story_of_an_hour
+  metadata:
+    word_count: 1013
+    language: english
+    copyright: public_domain
+    collected_date: '2025-11-21'
+    verified: false
+    clean_text: true
+  id: chopin_story_of_an_hour
+  classification:
+    category: psychological
+- title: The Open Boat
+  author: Stephen Crane
+  year: 1897
+  period:
+    era: modern
+    movement: realism
+  culture:
+    origin: american
+    cultural_sphere: western
+  genre:
+    primary: literary_fiction
+    secondary:
+    - adventure
+    - psychological
+    - naturalism
+  themes:
+  - survival
+  - nature's indifference
+  - camaraderie
+  - fate
+  - human endurance
+  narrative:
+    pov: third_person_limited
+    structure: linear
+    ending: ambiguous
+    style: minimalist
+  translation:
+    is_translated: false
+    original_language: null
+    translator: null
+  suggested_story_id: crane_open_boat
+  metadata:
+    word_count: 5285
+    language: english
+    copyright: public_domain
+    collected_date: '2025-11-21'
+    verified: false
+    clean_text: true
+  id: crane_open_boat
+  classification:
+    category: existential
+- title: Barn Burning
+  author: William Faulkner
+  year: 1939
+  period:
+    era: modern
+    movement: modernism
+  culture:
+    origin: american
+    cultural_sphere: western
+  genre:
+    primary: literary_fiction
+    secondary:
+    - psychological
+    - coming_of_age
+    - southern_gothic
+  themes:
+  - family_loyalty
+  - justice_and_morality
+  - class_conflict
+  - identity
+  - violence
+  narrative:
+    pov: third_person_limited
+    structure: linear
+    ending: ambiguous
+    style: ornate
+  translation:
+    is_translated: false
+    original_language: null
+    translator: null
+  suggested_story_id: faulkner_barn_burning
+  metadata:
+    word_count: 7811
+    language: english
+    copyright: public_domain
+    collected_date: '2025-11-21'
+    verified: false
+    clean_text: true
+  id: faulkner_barn_burning
+  classification:
+    category: social_critique
+- title: A Rose for Emily
+  author: William Faulkner
+  year: 1930
+  period:
+    era: modern
+    movement: modernism
+  culture:
+    origin: american
+    cultural_sphere: western
+  genre:
+    primary: literary_fiction
+    secondary:
+    - gothic
+    - psychological
+    - southern_gothic
+  themes:
+  - death
+  - decay
+  - isolation
+  - tradition vs change
+  - denial
+  - control
+  narrative:
+    pov: first_person_collective
+    structure: nonlinear
+    ending: twist
+    style: ornate
+  translation:
+    is_translated: false
+    original_language: null
+    translator: null
+  suggested_story_id: faulkner_rose_emily
+  metadata:
+    word_count: 3698
+    language: english
+    copyright: public_domain
+    collected_date: '2025-11-21'
+    verified: false
+    clean_text: true
+  id: faulkner_rose_emily
+  classification:
+    category: horror_gothic
+- title: The Yellow Wallpaper
+  author: Charlotte Perkins Gilman
+  year: 1892
+  period:
+    era: modern
+    movement: realism
+  culture:
+    origin: american
+    cultural_sphere: western
+  genre:
+    primary: literary_fiction
+    secondary:
+    - psychological
+    - feminist
+    - gothic
+  themes:
+  - mental_illness
+  - gender_roles
+  - confinement
+  - identity
+  - oppression
+  narrative:
+    pov: first_person
+    structure: linear
+    ending: ambiguous
+    style: descriptive
+  translation:
+    is_translated: false
+    original_language: null
+    translator: null
+  suggested_story_id: gilman_yellow_wallpaper
+  metadata:
+    word_count: 6085
+    language: english
+    copyright: public_domain
+    collected_date: '2025-11-21'
+    verified: false
+    clean_text: true
+  id: gilman_yellow_wallpaper
+  classification:
+    category: psychological
+- title: The Overcoat
+  author: Nikolai Gogol
+  year: 1842
+  period:
+    era: 19th_century
+    movement: realism
+  culture:
+    origin: russian
+    cultural_sphere: western
+  genre:
+    primary: literary_fiction
+    secondary:
+    - social_criticism
+    - satire
+    - psychological
+  themes:
+  - bureaucracy
+  - social alienation
+  - poverty
+  - human dignity
+  - compassion
+  narrative:
+    pov: third_person_omniscient
+    structure: linear
+    ending: ambiguous
+    style: ornate
+  translation:
+    is_translated: true
+    original_language: russian
+    translator: Constance Garnett
+  suggested_story_id: gogol_overcoat
+  metadata:
+    word_count: 12169
+    language: english
+    copyright: public_domain
+    collected_date: '2025-11-21'
+    verified: false
+    clean_text: true
+  id: gogol_overcoat
+  classification:
+    category: social_critique
+- title: Young Goodman Brown
+  author: Nathaniel Hawthorne
+  year: 1835
+  period:
+    era: 19th_century
+    movement: romanticism
+  culture:
+    origin: american
+    cultural_sphere: western
+  genre:
+    primary: literary_fiction
+    secondary:
+    - psychological
+    - allegory
+    - gothic
+  themes:
+  - faith
+  - temptation
+  - good vs evil
+  - loss of innocence
+  - hypocrisy
+  narrative:
+    pov: third_person_limited
+    structure: linear
+    ending: ambiguous
+    style: ornate
+  translation:
+    is_translated: false
+    original_language: null
+    translator: null
+  suggested_story_id: hawthorne_young_goodman_brown
+  metadata:
+    word_count: 5214
+    language: english
+    copyright: public_domain
+    collected_date: '2025-11-21'
+    verified: false
+    clean_text: true
+  id: hawthorne_young_goodman_brown
+  classification:
+    category: horror_gothic
+- title: A Clean, Well-Lighted Place
+  author: Ernest Hemingway
+  year: 1933
+  period:
+    era: modern
+    movement: modernism
+  culture:
+    origin: american
+    cultural_sphere: western
+  genre:
+    primary: literary_fiction
+    secondary:
+    - psychological
+    - existential
+  themes:
+  - loneliness
+  - despair
+  - aging
+  - nihilism
+  - isolation
+  narrative:
+    pov: third_person_limited
+    structure: linear
+    ending: ambiguous
+    style: minimalist
+  translation:
+    is_translated: false
+    original_language: english
+    translator: null
+  suggested_story_id: hemingway_clean_well_lighted
+  metadata:
+    word_count: 1446
+    language: english
+    copyright: public_domain
+    collected_date: '2025-11-21'
+    verified: false
+    clean_text: true
+  id: hemingway_clean_well_lighted
+  classification:
+    category: existential
+- title: Hills Like White Elephants
+  author: Ernest Hemingway
+  year: 1927
+  period:
+    era: modern
+    movement: modernism
+  culture:
+    origin: american
+    cultural_sphere: western
+  genre:
+    primary: literary_fiction
+    secondary:
+    - psychological
+    - dialogue_driven
+  themes:
+  - communication
+  - choice
+  - abortion
+  - relationships
+  - gender_dynamics
+  narrative:
+    pov: third_person_objective
+    structure: linear
+    ending: ambiguous
+    style: minimalist
+  translation:
+    is_translated: false
+    original_language: null
+    translator: null
+  suggested_story_id: hemingway_hills_like_white_elephants
+  metadata:
+    word_count: 6526
+    language: english
+    copyright: public_domain
+    collected_date: '2025-11-21'
+    verified: false
+    clean_text: true
+  id: hemingway_hills_like_white_elephants
+  classification:
+    category: psychological
+- title: The Lottery
+  author: Shirley Jackson
+  year: 1948
+  period:
+    era: modern
+    movement: modernism
+  culture:
+    origin: american
+    cultural_sphere: western
+  genre:
+    primary: literary_fiction
+    secondary:
+    - horror
+    - social_criticism
+    - psychological
+  themes:
+  - tradition_vs_change
+  - conformity
+  - violence
+  - scapegoating
+  - community_pressure
+  narrative:
+    pov: third_person_omniscient
+    structure: linear
+    ending: twist
+    style: minimalist
+  translation:
+    is_translated: false
+    original_language: null
+    translator: null
+  suggested_story_id: jackson_lottery
+  metadata:
+    word_count: 3392
+    language: english
+    copyright: public_domain
+    collected_date: '2025-11-21'
+    verified: false
+    clean_text: true
+  id: jackson_lottery
+  classification:
+    category: horror_gothic
+- title: Araby
+  author: James Joyce
+  year: 1914
+  period:
+    era: modern
+    movement: modernism
+  culture:
+    origin: irish
+    cultural_sphere: western
+  genre:
+    primary: literary_fiction
+    secondary:
+    - psychological
+    - coming_of_age
+    - realism
+  themes:
+  - adolescent_infatuation
+  - disillusionment
+  - escapism
+  - paralysis
+  narrative:
+    pov: first_person
+    structure: linear
+    ending: ambiguous
+    style: minimalist
+  translation:
+    is_translated: false
+    original_language: null
+    translator: null
+  suggested_story_id: joyce_araby
+  metadata:
+    word_count: 2332
+    language: english
+    copyright: public_domain
+    collected_date: '2025-11-21'
+    verified: false
+    clean_text: true
+  id: joyce_araby
+  classification:
+    category: coming_of_age
+- title: Eveline
+  author: James Joyce
+  year: 1914
+  period:
+    era: modern
+    movement: modernism
+  culture:
+    origin: irish
+    cultural_sphere: western
+  genre:
+    primary: literary_fiction
+    secondary:
+    - psychological
+    - coming_of_age
+    - social_realism
+  themes:
+  - paralysis
+  - escape
+  - family_duty
+  - fear
+  - sacrifice
+  narrative:
+    pov: third_person_limited
+    structure: linear
+    ending: ambiguous
+    style: minimalist
+  translation:
+    is_translated: false
+    original_language: english
+    translator: null
+  suggested_story_id: joyce_eveline
+  metadata:
+    word_count: 8089
+    language: english
+    copyright: public_domain
+    collected_date: '2025-11-21'
+    verified: false
+    clean_text: true
+  id: joyce_eveline
+  classification:
+    category: coming_of_age
+- title: The Dead
+  author: James Joyce
+  year: 1914
+  period:
+    era: modern
+    movement: modernism
+  culture:
+    origin: irish
+    cultural_sphere: western
+  genre:
+    primary: literary_fiction
+    secondary:
+    - psychological
+    - social_realism
+    - coming_of_age
+  themes:
+  - paralysis
+  - death
+  - identity
+  - memory
+  - Irish nationalism
+  narrative:
+    pov: third_person_limited
+    structure: linear
+    ending: ambiguous
+    style: modernist
+  translation:
+    is_translated: false
+    original_language: english
+    translator: null
+  suggested_story_id: joyce_the_dead
+  metadata:
+    word_count: 15813
+    language: english
+    copyright: public_domain
+    collected_date: '2025-11-21'
+    verified: false
+    clean_text: true
+  id: joyce_the_dead
+  classification:
+    category: existential
+- title: In the Penal Colony
+  author: Franz Kafka
+  year: 1919
+  period:
+    era: modern
+    movement: modernism
+  culture:
+    origin: austro-hungarian
+    cultural_sphere: western
+  genre:
+    primary: literary_fiction
+    secondary:
+    - psychological
+    - existential
+    - dystopian
+  themes:
+  - justice
+  - punishment
+  - authority
+  - guilt
+  - dehumanization
+  narrative:
+    pov: third_person_limited
+    structure: linear
+    ending: ambiguous
+    style: minimalist
+  translation:
+    is_translated: true
+    original_language: german
+    translator: null
+  suggested_story_id: kafka_in_penal_colony
+  metadata:
+    word_count: 11498
+    language: english
+    copyright: public_domain
+    collected_date: '2025-11-21'
+    verified: false
+    clean_text: true
+  id: kafka_in_penal_colony
+  classification:
+    category: existential
+- title: Metamorphosis
+  author: Franz Kafka
+  year: 1915
+  period:
+    era: modern
+    movement: modernism
+  culture:
+    origin: austro-hungarian
+    cultural_sphere: western
+  genre:
+    primary: literary_fiction
+    secondary:
+    - psychological
+    - absurdist
+    - existential
+  themes:
+  - alienation
+  - identity
+  - family_dynamics
+  - transformation
+  - isolation
+  narrative:
+    pov: third_person_limited
+    structure: linear
+    ending: ambiguous
+    style: minimalist
+  translation:
+    is_translated: true
+    original_language: german
+    translator: David Wyllie
+  suggested_story_id: kafka_metamorphosis
+  metadata:
+    word_count: 21944
+    language: english
+    copyright: public_domain
+    collected_date: '2025-11-21'
+    verified: false
+    clean_text: true
+  id: kafka_metamorphosis
+  classification:
+    category: existential
+- title: Girl
+  author: Jamaica Kincaid
+  year: 1978
+  period:
+    era: modern
+    movement: postmodernism
+  culture:
+    origin: american
+    cultural_sphere: western
+  genre:
+    primary: literary_fiction
+    secondary:
+    - feminist
+    - coming_of_age
+    - psychological
+  themes:
+  - gender_roles
+  - identity
+  - mother_daughter_relationship
+  - societal_expectations
+  - cultural_heritage
+  narrative:
+    pov: first_person
+    structure: nonlinear
+    ending: ambiguous
+    style: minimalist
+  translation:
+    is_translated: false
+    original_language: null
+    translator: null
+  suggested_story_id: kincaid_girl
+  metadata:
+    word_count: 687
+    language: english
+    copyright: public_domain
+    collected_date: '2025-11-21'
+    verified: false
+    clean_text: true
+  id: kincaid_girl
+  classification:
+    category: coming_of_age
+- title: A Temporary Matter
+  author: Jhumpa Lahiri
+  year: 1999
+  period:
+    era: modern
+    movement: realism
+  culture:
+    origin: american
+    cultural_sphere: western
+  genre:
+    primary: literary_fiction
+    secondary:
+    - psychological
+    - domestic_drama
+    - tragedy
+  themes:
+  - grief
+  - marriage
+  - communication
+  - loss
+  - isolation
+  narrative:
+    pov: third_person_limited
+    structure: linear
+    ending: ambiguous
+    style: minimalist
+  translation:
+    is_translated: false
+    original_language: null
+    translator: null
+  suggested_story_id: lahiri_temporary_matter
+  metadata:
+    word_count: 7206
+    language: english
+    copyright: public_domain
+    collected_date: '2025-11-21'
+    verified: false
+    clean_text: true
+  id: lahiri_temporary_matter
+  classification:
+    category: psychological
+- title: The Rocking-Horse Winner
+  author: David Herbert Lawrence
+  year: 1926
+  period:
+    era: modern
+    movement: modernism
+  culture:
+    origin: british
+    cultural_sphere: western
+  genre:
+    primary: literary_fiction
+    secondary:
+    - psychological
+    - coming_of_age
+    - supernatural
+  themes:
+  - luck and fate
+  - materialism and greed
+  - family and love
+  - anxiety and insecurity
+  - childhood innocence and loss
+  narrative:
+    pov: third_person_limited
+    structure: linear
+    ending: tragic
+    style: ornate
+  translation:
+    is_translated: false
+    original_language: null
+    translator: null
+  suggested_story_id: lawrence_rocking_horse_winner
+  metadata:
+    word_count: 5440
+    language: english
+    copyright: public_domain
+    collected_date: '2025-11-21'
+    verified: false
+    clean_text: true
+  id: lawrence_rocking_horse_winner
+  classification:
+    category: psychological
+- title: To Build a Fire
+  author: Jack London
+  year: 1908
+  period:
+    era: modern
+    movement: realism
+  culture:
+    origin: american
+    cultural_sphere: western
+  genre:
+    primary: literary_fiction
+    secondary:
+    - adventure
+    - naturalism
+  themes:
+  - man_vs_nature
+  - survival
+  - isolation
+  - instinct_vs_reason
+  - hubris
+  narrative:
+    pov: third_person_limited
+    structure: linear
+    ending: tragic
+    style: minimalist
+  translation:
+    is_translated: false
+    original_language: null
+    translator: null
+  suggested_story_id: london_to_build_a_fire
+  metadata:
+    word_count: 7117
+    language: english
+    copyright: public_domain
+    collected_date: '2025-11-21'
+    verified: false
+    clean_text: true
+  id: london_to_build_a_fire
+  classification:
+    category: existential
+- title: A Madman's Diary
+  author: Lu Xun
+  year: 1918
+  period:
+    era: modern
+    movement: modernism
+  culture:
+    origin: chinese
+    cultural_sphere: eastern
+  genre:
+    primary: literary_fiction
+    secondary:
+    - psychological
+    - social_criticism
+    - allegory
+  themes:
+  - alienation
+  - paranoia
+  - social injustice
+  - cannibalism (metaphorical)
+  - critique of traditional society
+  narrative:
+    pov: first_person
+    structure: nonlinear
+    ending: ambiguous
+    style: experimental
+  translation:
+    is_translated: true
+    original_language: chinese
+    translator: null
+  suggested_story_id: lu_xun_madman_diary
+  metadata:
+    word_count: 3953
+    language: english
+    copyright: public_domain
+    collected_date: '2025-11-21'
+    verified: false
+    clean_text: true
+  id: lu_xun_madman_diary
+  classification:
+    category: social_critique
+- title: The Handsomest Drowned Man in the World
+  author: Gabriel Garcia Marquez
+  year: 1968
+  period:
+    era: modern
+    movement: magical_realism
+  culture:
+    origin: colombian
+    cultural_sphere: latin_american
+  genre:
+    primary: literary_fiction
+    secondary:
+    - magical_realism
+    - allegory
+  themes:
+  - death
+  - identity
+  - community
+  - transformation
+  - isolation
+  narrative:
+    pov: third_person_omniscient
+    structure: linear
+    ending: redemptive
+    style: ornate
+  translation:
+    is_translated: true
+    original_language: spanish
+    translator: null
+  suggested_story_id: marquez_handsomest_drowned_man
+  metadata:
+    word_count: 2473
+    language: english
+    copyright: public_domain
+    collected_date: '2025-11-21'
+    verified: false
+    clean_text: true
+  id: marquez_handsomest_drowned_man
+  classification:
+    category: philosophical
+- title: 'A Very Old Man With Enormous Wings: A Tale For Children'
+  author: Gabriel Garcia Marquez
+  year: 1955
+  period:
+    era: modern
+    movement: magical_realism
+  culture:
+    origin: colombian
+    cultural_sphere: latin_american
+  genre:
+    primary: literary_fiction
+    secondary:
+    - magical_realism
+    - allegory
+    - fantasy
+  themes:
+  - human_nature
+  - faith_and_doubt
+  - suffering_and_compassion
+  - the_supernatural_in_the_mundane
+  - exploitation
+  narrative:
+    pov: third_person_omniscient
+    structure: linear
+    ending: ambiguous
+    style: ornate
+  translation:
+    is_translated: true
+    original_language: spanish
+    translator: null
+  suggested_story_id: marquez_very_old_man_enormous_wings
+  metadata:
+    word_count: 2849
+    language: english
+    copyright: public_domain
+    collected_date: '2025-11-21'
+    verified: false
+    clean_text: true
+  id: marquez_very_old_man_enormous_wings
+  classification:
+    category: philosophical
+- title: Boule de Suif
+  author: Guy de Maupassant
+  year: 1880
+  period:
+    era: 19th_century
+    movement: realism
+  culture:
+    origin: french
+    cultural_sphere: western
+  genre:
+    primary: literary_fiction
+    secondary:
+    - historical_fiction
+    - war
+  themes:
+  - patriotism
+  - sacrifice
+  - hypocrisy
+  - social_class
+  - morality
+  narrative:
+    pov: third_person_omniscient
+    structure: linear
+    ending: ambiguous
+    style: detailed
+  translation:
+    is_translated: true
+    original_language: french
+    translator: Albert M. C. McMaster, A. E. Henderson, MME. Quesada and Others
+  suggested_story_id: maupassant_boule_de_suif
+  metadata:
+    word_count: 14417
+    language: english
+    copyright: public_domain
+    collected_date: '2025-11-21'
+    verified: false
+    clean_text: true
+  id: maupassant_boule_de_suif
+  classification:
+    category: social_critique
+- title: The Horla
+  author: Guy de Maupassant
+  year: 1887
+  period:
+    era: 19th_century
+    movement: realism
+  culture:
+    origin: french
+    cultural_sphere: western
+  genre:
+    primary: literary_fiction
+    secondary:
+    - psychological
+    - supernatural
+  themes:
+  - madness
+  - the supernatural
+  - identity
+  - fear
+  - isolation
+  narrative:
+    pov: first_person
+    structure: linear
+    ending: ambiguous
+    style: ornate
+  translation:
+    is_translated: true
+    original_language: french
+    translator: Albert M. C. McMaster, A. E. Henderson, MME. Quesada and Others
+  suggested_story_id: maupassant_horla
+  metadata:
+    word_count: 9606
+    language: english
+    copyright: public_domain
+    collected_date: '2025-11-21'
+    verified: false
+    clean_text: true
+  id: maupassant_horla
+  classification:
+    category: horror_gothic
+- title: The Necklace
+  author: Guy de Maupassant
+  year: 1884
+  period:
+    era: 19th_century
+    movement: realism
+  culture:
+    origin: french
+    cultural_sphere: western
+  genre:
+    primary: literary_fiction
+    secondary:
+    - social_criticism
+    - irony
+    - tragedy
+  themes:
+  - vanity
+  - social_class
+  - pride
+  - deception
+  - sacrifice
+  - fate
+  narrative:
+    pov: third_person_limited
+    structure: linear
+    ending: twist
+    style: minimalist
+  translation:
+    is_translated: true
+    original_language: french
+    translator: null
+  suggested_story_id: maupassant_necklace
+  metadata:
+    word_count: 2842
+    language: english
+    copyright: public_domain
+    collected_date: '2025-11-21'
+    verified: false
+    clean_text: true
+  id: maupassant_necklace
+  classification:
+    category: social_critique
+- title: Where Are You Going, Where Have You Been?
+  author: Joyce Carol Oates
+  year: 1966
+  period:
+    era: modern
+    movement: modernism
+  culture:
+    origin: american
+    cultural_sphere: western
+  genre:
+    primary: literary_fiction
+    secondary:
+    - psychological
+    - coming_of_age
+    - suspense
+  themes:
+  - identity
+  - adolescence
+  - danger
+  - manipulation
+  - sexuality
+  narrative:
+    pov: third_person_limited
+    structure: linear
+    ending: ambiguous
+    style: minimalist
+  translation:
+    is_translated: false
+    original_language: null
+    translator: null
+  suggested_story_id: oates_where_are_you_going_where_have_you_been
+  metadata:
+    word_count: 6865
+    language: english
+    copyright: public_domain
+    collected_date: '2025-11-21'
+    verified: false
+    clean_text: true
+  id: oates_where_are_you_going_where_have_you_been
+  classification:
+    category: psychological
+- title: The Things They Carried
+  author: Tim O’Brien
+  year: 1990
+  period:
+    era: postwar
+    movement: postmodernism
+  culture:
+    origin: american
+    cultural_sphere: western
+  genre:
+    primary: literary_fiction
+    secondary:
+    - war
+    - psychological
+    - historical
+  themes:
+  - love
+  - death
+  - memory
+  - trauma
+  - guilt
+  narrative:
+    pov: third_person_limited
+    structure: nonlinear
+    ending: ambiguous
+    style: minimalist
+  translation:
+    is_translated: false
+    original_language: null
+    translator: null
+  suggested_story_id: obrien_things_they_carried
+  metadata:
+    word_count: 35449
+    language: english
+    copyright: public_domain
+    collected_date: '2025-11-21'
+    verified: false
+    clean_text: true
+  id: obrien_things_they_carried
+  classification:
+    category: psychological
+- title: Everything That Rises Must Converge
+  author: Flannery O'Connor
+  year: 1965
+  period:
+    era: modern
+    movement: southern_gothic
+  culture:
+    origin: american
+    cultural_sphere: western
+  genre:
+    primary: literary_fiction
+    secondary:
+    - psychological
+    - social_criticism
+    - coming_of_age
+  themes:
+  - race_relations
+  - generational_conflict
+  - pride_and_humility
+  - identity
+  - social_change
+  narrative:
+    pov: third_person_limited
+    structure: linear
+    ending: ambiguous
+    style: minimalist
+  translation:
+    is_translated: false
+    original_language: null
+    translator: null
+  suggested_story_id: oconnor_everything_that_rises_must_converge
+  metadata:
+    word_count: 6480
+    language: english
+    copyright: public_domain
+    collected_date: '2025-11-21'
+    verified: false
+    clean_text: true
+  id: oconnor_everything_that_rises_must_converge
+  classification:
+    category: social_critique
+- title: Good Country People
+  author: Flannery O'Connor
+  year: 1955
+  period:
+    era: postwar
+    movement: modernism
+  culture:
+    origin: american
+    cultural_sphere: western
+  genre:
+    primary: literary_fiction
+    secondary:
+    - southern_gothic
+    - psychological
+    - dark_humor
+  themes:
+  - identity
+  - deception
+  - faith
+  - disability
+  - human_folly
+  narrative:
+    pov: third_person_limited
+    structure: linear
+    ending: twist
+    style: minimalist
+  translation:
+    is_translated: false
+    original_language: null
+    translator: null
+  suggested_story_id: oconnor_good_country_people
+  metadata:
+    word_count: 8632
+    language: english
+    copyright: public_domain
+    collected_date: '2025-11-21'
+    verified: false
+    clean_text: true
+  id: oconnor_good_country_people
+  classification:
+    category: social_critique
+- title: A Good Man is Hard to Find
+  author: Flannery O'Connor
+  year: 1953
+  period:
+    era: modern
+    movement: southern_gothic
+  culture:
+    origin: american
+    cultural_sphere: western
+  genre:
+    primary: literary_fiction
+    secondary:
+    - southern_gothic
+    - psychological
+    - dark_humor
+  themes:
+  - morality
+  - grace
+  - violence
+  - family
+  - redemption
+  narrative:
+    pov: third_person_limited
+    structure: linear
+    ending: tragic
+    style: gothic
+  translation:
+    is_translated: false
+    original_language: null
+    translator: null
+  suggested_story_id: oconnor_good_man_hard_to_find
+  metadata:
+    word_count: 6473
+    language: english
+    copyright: public_domain
+    collected_date: '2025-11-21'
+    verified: false
+    clean_text: true
+  id: oconnor_good_man_hard_to_find
+  classification:
+    category: existential
+- title: The Gift of the Magi
+  author: O. Henry
+  year: 1905
+  period:
+    era: modern
+    movement: realism
+  culture:
+    origin: american
+    cultural_sphere: western
+  genre:
+    primary: literary_fiction
+    secondary:
+    - romance
+    - moral_fable
+  themes:
+  - love
+  - sacrifice
+  - poverty
+  - generosity
+  - irony
+  narrative:
+    pov: third_person_limited
+    structure: linear
+    ending: twist
+    style: ornate
+  translation:
+    is_translated: false
+    original_language: null
+    translator: null
+  suggested_story_id: ohenry_gift_of_magi
+  metadata:
+    word_count: 2065
+    language: english
+    copyright: public_domain
+    collected_date: '2025-11-21'
+    verified: false
+    clean_text: true
+  id: ohenry_gift_of_magi
+  classification:
+    category: romance
+- title: The Last Leaf
+  author: O. Henry
+  year: 1907
+  period:
+    era: modern
+    movement: realism
+  culture:
+    origin: american
+    cultural_sphere: western
+  genre:
+    primary: literary_fiction
+    secondary:
+    - psychological
+    - inspirational
+  themes:
+  - hope
+  - sacrifice
+  - death
+  - friendship
+  narrative:
+    pov: third_person_limited
+    structure: linear
+    ending: redemptive
+    style: minimalist
+  translation:
+    is_translated: false
+    original_language: null
+    translator: null
+  suggested_story_id: ohenry_last_leaf
+  metadata:
+    word_count: 2401
+    language: english
+    copyright: public_domain
+    collected_date: '2025-11-21'
+    verified: false
+    clean_text: true
+  id: ohenry_last_leaf
+  classification:
+    category: romance
+- title: The Fall of the House of Usher
+  author: Edgar Allan Poe
+  year: 1839
+  period:
+    era: 19th_century
+    movement: romanticism
+  culture:
+    origin: american
+    cultural_sphere: western
+  genre:
+    primary: literary_fiction
+    secondary:
+    - gothic
+    - horror
+    - psychological
+  themes:
+  - madness
+  - death
+  - decay
+  - family
+  - fear
+  narrative:
+    pov: first_person
+    structure: linear
+    ending: ambiguous
+    style: ornate
+  translation:
+    is_translated: false
+    original_language: english
+    translator: null
+  suggested_story_id: poe_fall_house_usher
+  metadata:
+    word_count: 7069
+    language: english
+    copyright: public_domain
+    collected_date: '2025-11-21'
+    verified: false
+    clean_text: true
+  id: poe_fall_house_usher
+  classification:
+    category: horror_gothic
+- title: The Purloined Letter
+  author: Edgar Allan Poe
+  year: 1844
+  period:
+    era: 19th_century
+    movement: romanticism
+  culture:
+    origin: american
+    cultural_sphere: western
+  genre:
+    primary: detective_fiction
+    secondary:
+    - mystery
+    - psychological
+  themes:
+  - deception
+  - power
+  - secrecy
+  - intelligence
+  - justice
+  narrative:
+    pov: first_person
+    structure: linear
+    ending: twist
+    style: ornate
+  translation:
+    is_translated: false
+    original_language: null
+    translator: null
+  suggested_story_id: poe_purloined_letter
+  metadata:
+    word_count: 94933
+    language: english
+    copyright: public_domain
+    collected_date: '2025-11-21'
+    verified: false
+    clean_text: true
+  id: poe_purloined_letter
+  classification:
+    category: psychological
+- title: The Open Window
+  author: H. H. Munro (Saki)
+  year: 1914
+  period:
+    era: modern
+    movement: realism
+  culture:
+    origin: british
+    cultural_sphere: western
+  genre:
+    primary: literary_fiction
+    secondary:
+    - psychological
+    - humor
+    - gothic
+  themes:
+  - deception
+  - fear
+  - social manners
+  - the power of storytelling
+  narrative:
+    pov: third_person_limited
+    structure: linear
+    ending: twist
+    style: minimalist
+  translation:
+    is_translated: false
+    original_language: null
+    translator: null
+  suggested_story_id: saki_open_window
+  metadata:
+    word_count: 1219
+    language: english
+    copyright: public_domain
+    collected_date: '2025-11-21'
+    verified: false
+    clean_text: true
+  id: saki_open_window
+  classification:
+    category: psychological
+- title: CivilWarLand in Bad Decline
+  author: George Saunders
+  year: 1996
+  period:
+    era: contemporary
+    movement: postmodernism
+  culture:
+    origin: american
+    cultural_sphere: western
+  genre:
+    primary: literary_fiction
+    secondary:
+    - satire
+    - dystopian
+    - dark_humor
+  themes:
+  - decline_of_american_dream
+  - commercialization_of_history
+  - violence_and_social_decay
+  - alienation
+  - survival
+  narrative:
+    pov: first_person
+    structure: linear
+    ending: ambiguous
+    style: minimalist
+  translation:
+    is_translated: false
+    original_language: null
+    translator: null
+  suggested_story_id: saunders_civilwarland_bad_decline
+  metadata:
+    word_count: 66005
+    language: english
+    copyright: public_domain
+    collected_date: '2025-11-21'
+    verified: false
+    clean_text: true
+  id: saunders_civilwarland_bad_decline
+  classification:
+    category: social_critique
+- title: Victory Lap
+  author: George Saunders
+  year: 2013
+  period:
+    era: contemporary
+    movement: postmodernism
+  culture:
+    origin: american
+    cultural_sphere: western
+  genre:
+    primary: literary_fiction
+    secondary:
+    - psychological
+    - coming_of_age
+  themes:
+  - adolescence
+  - identity
+  - family dynamics
+  - societal expectations
+  - morality
+  narrative:
+    pov: third_person_limited
+    structure: linear
+    ending: ambiguous
+    style: minimalist
+  translation:
+    is_translated: false
+    original_language: null
+    translator: null
+  suggested_story_id: saunders_victory_lap
+  metadata:
+    word_count: 55331
+    language: english
+    copyright: public_domain
+    collected_date: '2025-11-21'
+    verified: false
+    clean_text: true
+  id: saunders_victory_lap
+  classification:
+    category: coming_of_age
+- title: The Strange Case of Dr. Jekyll and Mr. Hyde
+  author: Robert Louis Stevenson
+  year: 1886
+  period:
+    era: 19th_century
+    movement: gothic
+  culture:
+    origin: british
+    cultural_sphere: western
+  genre:
+    primary: literary_fiction
+    secondary:
+    - gothic
+    - psychological_thriller
+    - horror
+  themes:
+  - duality_of_human_nature
+  - identity
+  - good_vs_evil
+  - repression
+  - science_and_ethics
+  narrative:
+    pov: third_person_limited
+    structure: linear
+    ending: twist
+    style: ornate
+  translation:
+    is_translated: false
+    original_language: english
+    translator: null
+  suggested_story_id: stevenson_dr_jekyll_mr_hyde
+  metadata:
+    word_count: 25591
+    language: english
+    copyright: public_domain
+    collected_date: '2025-11-21'
+    verified: false
+    clean_text: true
+  id: stevenson_dr_jekyll_mr_hyde
+  classification:
+    category: horror_gothic
+- title: How Much Land Does a Man Need?
+  author: Leo Tolstoy
+  year: 1886
+  period:
+    era: 19th_century
+    movement: realism
+  culture:
+    origin: russian
+    cultural_sphere: western
+  genre:
+    primary: literary_fiction
+    secondary:
+    - parable
+    - moral_fable
+  themes:
+  - greed
+  - mortality
+  - human_nature
+  - materialism
+  - humility
+  narrative:
+    pov: third_person_limited
+    structure: linear
+    ending: tragic
+    style: straightforward
+  translation:
+    is_translated: true
+    original_language: russian
+    translator: null
+  suggested_story_id: tolstoy_how_much_land
+  metadata:
+    word_count: 3178
+    language: english
+    copyright: public_domain
+    collected_date: '2025-11-21'
+    verified: false
+    clean_text: true
+  id: tolstoy_how_much_land
+  classification:
+    category: philosophical
+- title: Roman Fever
+  author: Edith Wharton
+  year: 1934
+  period:
+    era: modern
+    movement: realism
+  culture:
+    origin: american
+    cultural_sphere: western
+  genre:
+    primary: literary_fiction
+    secondary:
+    - psychological
+    - social_commentary
+    - domestic_drama
+  themes:
+  - friendship
+  - jealousy
+  - social_class
+  - motherhood
+  - deception
+  narrative:
+    pov: third_person_limited
+    structure: linear
+    ending: twist
+    style: ornate
+  translation:
+    is_translated: false
+    original_language: null
+    translator: null
+  suggested_story_id: wharton_roman_fever
+  metadata:
+    word_count: 5023
+    language: english
+    copyright: public_domain
+    collected_date: '2025-11-21'
+    verified: false
+    clean_text: true
+  id: wharton_roman_fever
+  classification:
+    category: psychological
+- title: Kew Gardens
+  author: Virginia Woolf
+  year: 1919
+  period:
+    era: modern
+    movement: modernism
+  culture:
+    origin: british
+    cultural_sphere: western
+  genre:
+    primary: literary_fiction
+    secondary:
+    - stream_of_consciousness
+    - psychological
+  themes:
+  - memory
+  - time
+  - nature
+  - human consciousness
+  - perception
+  narrative:
+    pov: third_person_omniscient
+    structure: nonlinear
+    ending: ambiguous
+    style: experimental
+  translation:
+    is_translated: false
+    original_language: null
+    translator: null
+  suggested_story_id: woolf_kew_gardens
+  metadata:
+    word_count: 2600
+    language: english
+    copyright: public_domain
+    collected_date: '2025-11-21'
+    verified: false
+    clean_text: true
+  id: woolf_kew_gardens
+  classification:
+    category: experimental
+- title: The Mark on the Wall
+  author: Virginia Woolf
+  year: 1917
+  period:
+    era: modern
+    movement: modernism
+  culture:
+    origin: british
+    cultural_sphere: western
+  genre:
+    primary: literary_fiction
+    secondary:
+    - psychological
+    - stream_of_consciousness
+  themes:
+  - perception
+  - reality
+  - consciousness
+  - time
+  - memory
+  narrative:
+    pov: first_person
+    structure: nonlinear
+    ending: ambiguous
+    style: experimental
+  translation:
+    is_translated: false
+    original_language: null
+    translator: null
+  suggested_story_id: woolf_mark_on_wall
+  metadata:
+    word_count: 3107
+    language: english
+    copyright: public_domain
+    collected_date: '2025-11-21'
+    verified: false
+    clean_text: true
+  id: woolf_mark_on_wall
+  classification:
+    category: experimental
+- title: The Destructors
+  author: Graham Greene
+  year: 1954
+  period:
+    era: postwar
+    movement: modernism
+  culture:
+    origin: british
+    cultural_sphere: western
+  genre:
+    primary: literary_fiction
+    secondary:
+    - psychological
+    - coming_of_age
+    - social_criticism
+  themes:
+  - destruction and creation
+  - class conflict
+  - loss of innocence
+  - rebellion
+  - morality and ethics
+  narrative:
+    pov: third_person_limited
+    structure: linear
+    ending: ambiguous
+    style: minimalist
+  translation:
+    is_translated: false
+    original_language: null
+    translator: null
+  suggested_story_id: greene_destructors
+  metadata:
+    word_count: 5510
+    language: english
+    copyright: public_domain
+    collected_date: '2025-11-21'
+    verified: false
+    clean_text: true
+  id: greene_destructors
+  classification:
+    category: social_critique

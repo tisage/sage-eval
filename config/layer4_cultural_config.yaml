@@ -1,0 +1,353 @@
+story_catalog: config/story_catalog.yaml
+experiment_presets:
+  smoke_test:
+    strategy: curated
+    description: Quick smoke test with 1 canonical story
+    canonical_count: 1
+    pulp_count: 0
+    canonical_ids:
+    - maupassant_necklace
+    pulp_ids: []
+  pilot_5v5:
+    strategy: curated
+    description: 'Pilot 5v5 test: 5 canonical vs 5 pulp stories'
+    canonical_count: 5
+    pulp_count: 5
+    canonical_ids:
+    - maupassant_necklace
+    - chekhov_lady_with_dog
+    - akutagawa_in_a_grove
+    - joyce_the_dead
+    - oconnor_good_country_people
+    pulp_ids:
+    - carter_nick_carter_stories
+    - grey_riders_of_purple_sage
+    - burroughs_tarzan_of_apes
+    - lovecraft_dunwich_horror
+    - cummings_girl_in_golden_atom
+  full_10v10:
+    strategy: curated
+    description: 'Full 10v10 validation: 10 canonical vs 10 pulp stories'
+    canonical_count: 10
+    pulp_count: 10
+    canonical_ids:
+    - chekhov_lady_with_dog
+    - gogol_overcoat
+    - maupassant_necklace
+    - joyce_the_dead
+    - poe_fall_house_usher
+    - hawthorne_young_goodman_brown
+    - oconnor_good_country_people
+    - akutagawa_in_a_grove
+    - borges_library_of_babel
+    - kafka_metamorphosis
+    pulp_ids:
+    - brand_the_untamed
+    - burroughs_tarzan_of_apes
+    - carter_nick_carter_stories
+    - cummings_girl_in_golden_atom
+    - grey_riders_of_purple_sage
+    - leinster_mad_planet
+    - lovecraft_dunwich_horror
+    - mcculley_curse_of_capistrano
+    - oppenheim_double_four
+    - rohmer_dr_fu_manchu
+  full_20v10:
+    strategy: first_n
+    description: 'Extended validation: 20 canonical vs 10 pulp stories'
+    canonical_count: 20
+    pulp_count: 10
+  all_canonical:
+    strategy: curated
+    description: All 10 canonical stories only
+    canonical_count: 10
+    pulp_count: 0
+    canonical_ids:
+    - chekhov_lady_with_dog
+    - gogol_overcoat
+    - maupassant_necklace
+    - joyce_the_dead
+    - poe_fall_house_usher
+    - hawthorne_young_goodman_brown
+    - oconnor_good_country_people
+    - akutagawa_in_a_grove
+    - borges_library_of_babel
+    - kafka_metamorphosis
+    pulp_ids: []
+  all_pulp:
+    strategy: curated
+    description: All 10 pulp stories only
+    canonical_count: 0
+    pulp_count: 10
+    canonical_ids: []
+    pulp_ids:
+    - brand_the_untamed
+    - burroughs_tarzan_of_apes
+    - carter_nick_carter_stories
+    - cummings_girl_in_golden_atom
+    - grey_riders_of_purple_sage
+    - leinster_mad_planet
+    - lovecraft_dunwich_horror
+    - mcculley_curse_of_capistrano
+    - oppenheim_double_four
+    - rohmer_dr_fu_manchu
+  all_canonical_53:
+    strategy: all
+    description: All 53 canonical stories from corpus
+    canonical_count: 53
+    pulp_count: 0
+  full_corpus:
+    strategy: all
+    description: 'Full corpus: 53 canonical + 33 pulp + 20 LLM (total 106 stories)'
+    canonical_count: 53
+    pulp_count: 33
+    llm_count: 20
+  pilot_10v10:
+    strategy: curated
+    description: 'Phase 3.4 pilot: 10 canonical vs 10 (7 pulp + 3 LLM)'
+    canonical_count: 10
+    pulp_count: 7
+    llm_count: 3
+    canonical_ids:
+    - akutagawa_in_a_grove
+    - akutagawa_rashomon
+    - barthelme_school
+    - borges_circular_ruins
+    - borges_garden_forking_paths
+    - borges_library_of_babel
+    - carver_what_we_talk_about_when_we_talk_about_love
+    - chekhov_lady_with_dog
+    - chekhov_the_bet
+    - chekhov_ward_no_6
+    pulp_ids:
+    - bower_chip_of_the_flying_u
+    - brand_destry_rides_again
+    - brand_the_untamed
+    - burroughs_princess_of_mars
+    - burroughs_tarzan_of_apes
+    - carter_nick_carter_stories
+    - chambers_king_in_yellow
+    llm_ids:
+    - high_01_magic_score3_78
+    - avg_03_fantasy_score3_40
+    - low_01_adventure_score2_58
+  full_50v50:
+    strategy: curated
+    description: 'Phase 4 full experiment: 50 canonical vs 50 (30 pulp + 20 LLM)'
+    canonical_count: 50
+    pulp_count: 30
+    llm_count: 20
+    canonical_ids:
+    - akutagawa_in_a_grove
+    - akutagawa_rashomon
+    - barthelme_school
+    - borges_circular_ruins
+    - borges_garden_forking_paths
+    - borges_library_of_babel
+    - carver_what_we_talk_about_when_we_talk_about_love
+    - chekhov_lady_with_dog
+    - chekhov_the_bet
+    - chekhov_ward_no_6
+    - chopin_story_of_an_hour
+    - crane_open_boat
+    - faulkner_barn_burning
+    - faulkner_rose_emily
+    - gilman_yellow_wallpaper
+    - gogol_overcoat
+    - greene_destructors
+    - hawthorne_young_goodman_brown
+    - hemingway_clean_well_lighted
+    - hemingway_hills_like_white_elephants
+    - jackson_lottery
+    - joyce_araby
+    - joyce_eveline
+    - joyce_the_dead
+    - kafka_in_penal_colony
+    - kafka_metamorphosis
+    - kincaid_girl
+    - lahiri_temporary_matter
+    - lawrence_rocking_horse_winner
+    - london_to_build_a_fire
+    - lu_xun_madman_diary
+    - marquez_handsomest_drowned_man
+    - marquez_very_old_man_enormous_wings
+    - maupassant_boule_de_suif
+    - maupassant_horla
+    - maupassant_necklace
+    - oates_where_are_you_going_where_have_you_been
+    - obrien_things_they_carried
+    - oconnor_everything_that_rises_must_converge
+    - oconnor_good_country_people
+    - oconnor_good_man_hard_to_find
+    - ohenry_gift_of_magi
+    - ohenry_last_leaf
+    - poe_fall_house_usher
+    - poe_purloined_letter
+    - saki_open_window
+    - saunders_civilwarland_bad_decline
+    - saunders_victory_lap
+    - stevenson_dr_jekyll_mr_hyde
+    - tolstoy_how_much_land
+    pulp_ids:
+    - haggard_she
+    - haggard_allan_quatermain
+    - grey_riders_of_purple_sage
+    - grey_desert_gold
+    - mundy_kingof_the_khyber_rifles
+    - oppenheim_black_box
+    - merritt_moon_pool
+    - cummings_girl_in_golden_atom
+    - mulford_hopalong_cassidy
+    - reeve_silent_bullet
+    - burroughs_tarzan_of_apes
+    - haggard_king_solomons_mines
+    - grey_heritage_of_the_desert
+    - brand_destry_rides_again
+    - oppenheim_great_impersonation
+    - rohmer_dr_fu_manchu
+    - chambers_king_in_yellow
+    - brand_the_untamed
+    - mulford_bar20_days
+    - wallace_daffodil_mystery
+    - mcculley_mark_of_zorro
+    - burroughs_princess_of_mars
+    - wallace_crimson_circle
+    - oppenheim_double_four
+    - doyle_hound_of_the_baskervilles
+    - bower_chip_of_the_flying_u
+    - carter_nick_carter_stories
+    - leinster_mad_planet
+    - lovecraft_dunwich_horror
+    - mcculley_curse_of_capistrano
+    llm_ids:
+    - high_01_magic_score3_78
+    - high_02_crime_score3_75
+    - high_03_supernatural_score3_66
+    - high_04_dystopian_score3_62
+    - high_05_western_score3_59
+    - high_06_comedy_score3_59
+    - high_07_adventure_score3_59
+    - high_08_dystopian_score3_59
+    - high_09_adventure_score3_59
+    - high_10_supernatural_score3_58
+    - avg_01_adventure_score3_40
+    - avg_02_western_score3_40
+    - avg_03_fantasy_score3_40
+    - avg_04_horror_score3_40
+    - avg_05_crime_score3_40
+    - low_01_adventure_score2_58
+    - low_02_comedy_score2_56
+    - low_03_historical_fiction_score2_56
+    - low_04_crime_score2_56
+    - low_05_western_score2_56
+multi_round:
+  enabled: true
+  num_rounds: 5
+  mode: content-limit
+  independent_validation:
+    enabled: true
+models:
+  iterative_evaluator: gpt-5-mini
+  independent_validator: gpt-5-mini
+test_modes:
+- name: content-limit
+  description: Evaluate based only on provided text content, no metadata
+  mode: content-limit
+- name: title-limit
+  description: Evaluate based only on title and author, synthesize scholarly consensus
+  mode: title-limit
+output:
+  save_conversation_history: true
+  save_trajectories: true
+  save_independent_validation: true
+  results_dir: results/multi_round
+dimensions:
+- name: intersectional_power_dynamics
+  abbreviation: IPD
+  weight: 1.0
+  reliability: to_be_determined
+  description: Configuration, negotiation and legitimation of power across social
+    axes (may include class, gender, race, kinship, occupation, age, religion, etc.)
+  theory: Bourdieu's Field Theory + Marxist Criticism + Feminist Theory + Postcolonial
+    Theory + Power Structure Analysis
+  evidence_requirement: high
+  pk_sensitivity: low
+  focus: How power is distributed, negotiated, and legitimated through social structures
+    and relationships
+- name: cultural_voice_perspective
+  abbreviation: CVP
+  weight: 1.0
+  reliability: to_be_determined
+  description: Narrative positioning as insider with cultural authority vs. outsider
+    gaze with potential exoticization
+  theory: Postcolonial Theory (Said's Orientalism, Spivak's Subaltern Studies), Narrative
+    Theory
+  evidence_requirement: medium
+  pk_sensitivity: medium
+  focus: Epistemic stance and cultural authority of narrative voice
+- name: cultural_specificity
+  abbreviation: CSP
+  weight: 1.0
+  reliability: to_be_determined
+  description: Density and precision of cultural particularities (time, place, social
+    practices, material culture)
+  theory: Thick Description (Geertz), Cultural Anthropology, Historical Particularism
+  evidence_requirement: high
+  pk_sensitivity: medium
+  focus: Thickness of cultural description across temporal, spatial, social, material
+    domains
+- name: cultural_pattern_complexity
+  abbreviation: CPC
+  weight: 1.0
+  reliability: to_be_determined
+  description: 'Structural complexity of cultural patterns: relational systems, conflict
+    structures, self-reflexivity, archetypal depth'
+  theory: Structural Anthropology (Lévi-Strauss), Cultural Systems Theory, Postcolonial
+    Reflexivity, Archetypal Theory
+  evidence_requirement: high
+  pk_sensitivity: low
+  focus: Depth vs. simplification, archetype vs. cliché, structural tension vs. binary
+    opposition
+  sub_dimensions:
+  - relational_complexity
+  - conflict_structuration
+  - cultural_self_reflexivity
+  - pattern_archetypal_quality
+confidence:
+  high: 4
+  medium: 3
+  low: 2
+validation:
+  score_stability_threshold: 0.3
+  confidence_increase_expected: true
+  validator_agreement_threshold: 0.5
+logging:
+  level: INFO
+  save_detailed_logs: true
+  log_file: logs/multi_round_evaluation.log
+test_stories:
+- id: maupassant_necklace
+  path: data/corpus/19th_century/french/maupassant_necklace.txt
+  title: The Necklace
+  author: Guy de Maupassant
+  category: canonical
+- id: chekhov_lady_with_dog
+  path: data/corpus/19th_century/russian/chekhov_lady_with_dog.txt
+  title: Lady with Dog
+  author: Anton Chekhov
+  category: canonical
+- id: akutagawa_in_a_grove
+  path: data/corpus/modern/japanese/akutagawa_in_a_grove.txt
+  title: In a Grove
+  author: Ryūnosuke Akutagawa
+  category: canonical
+- id: carter_nick_carter_stories
+  path: data/pulp_fiction/carter_nick_carter_stories.txt
+  title: Nick Carter Stories
+  author: Nicholas Carter
+  category: pulp
+- id: lovecraft_dunwich_horror
+  path: data/pulp_fiction/lovecraft_dunwich_horror.txt
+  title: The Dunwich Horror
+  author: H.P. Lovecraft
+  category: pulp

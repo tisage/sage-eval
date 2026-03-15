@@ -1,0 +1,1071 @@
+metadata:
+  description: Story Catalog - Master list of all stories for SAGE evaluation
+  auto_generated_by: scripts/sync_story_catalog.py
+  last_updated: '2025-12-24T16:59:10.663443'
+  total_canonical: 53
+  total_pulp: 33
+  total_stories: 106
+  total_llm_generated: 20
+canonical_stories:
+- id: akutagawa_in_a_grove
+  path: data/corpus/modern/japanese/akutagawa_in_a_grove.txt
+  author_slug: akutagawa
+  title_slug: in_a_grove
+  period: modern
+  region: japanese
+  filename: akutagawa_in_a_grove.txt
+  quality_tier: canonical
+  title: In a Grove
+  author: Akutagawa
+  expected_recognition: to_be_determined
+- id: akutagawa_rashomon
+  path: data/corpus/modern/japanese/akutagawa_rashomon.txt
+  author_slug: akutagawa
+  title_slug: rashomon
+  period: modern
+  region: japanese
+  filename: akutagawa_rashomon.txt
+  quality_tier: canonical
+  title: Rashomon
+  author: Akutagawa
+  expected_recognition: to_be_determined
+- id: barthelme_school
+  path: data/corpus/modern/american/barthelme_school.txt
+  author_slug: barthelme
+  title_slug: school
+  period: modern
+  region: american
+  filename: barthelme_school.txt
+  quality_tier: canonical
+  title: School
+  author: Barthelme
+  expected_recognition: to_be_determined
+- id: borges_circular_ruins
+  path: data/corpus/modern/argentinian/borges_circular_ruins.txt
+  author_slug: borges
+  title_slug: circular_ruins
+  period: modern
+  region: argentinian
+  filename: borges_circular_ruins.txt
+  quality_tier: canonical
+  title: Circular Ruins
+  author: Borges
+  expected_recognition: to_be_determined
+- id: borges_garden_forking_paths
+  path: data/corpus/modern/argentinian/borges_garden_forking_paths.txt
+  author_slug: borges
+  title_slug: garden_forking_paths
+  period: modern
+  region: argentinian
+  filename: borges_garden_forking_paths.txt
+  quality_tier: canonical
+  title: Garden Forking Paths
+  author: Borges
+  expected_recognition: to_be_determined
+- id: borges_library_of_babel
+  path: data/corpus/modern/argentine/borges_library_of_babel.txt
+  author_slug: borges
+  title_slug: library_of_babel
+  period: modern
+  region: argentine
+  filename: borges_library_of_babel.txt
+  quality_tier: canonical
+  title: Library of Babel
+  author: Borges
+  expected_recognition: to_be_determined
+- id: carver_what_we_talk_about_when_we_talk_about_love
+  path: data/corpus/modern/american/carver_what_we_talk_about_when_we_talk_about_love.txt
+  author_slug: carver
+  title_slug: what_we_talk_about_when_we_talk_about_love
+  period: modern
+  region: american
+  filename: carver_what_we_talk_about_when_we_talk_about_love.txt
+  quality_tier: canonical
+  title: What We Talk About When We Talk About Love
+  author: Carver
+  expected_recognition: to_be_determined
+- id: chekhov_lady_with_dog
+  path: data/corpus/19th_century/russian/chekhov_lady_with_dog.txt
+  author_slug: chekhov
+  title_slug: lady_with_dog
+  period: 19th_century
+  region: russian
+  filename: chekhov_lady_with_dog.txt
+  quality_tier: canonical
+  title: Lady with Dog
+  author: Chekhov
+  expected_recognition: to_be_determined
+- id: chekhov_the_bet
+  path: data/corpus/19th_century/russian/chekhov_the_bet.txt
+  author_slug: chekhov
+  title_slug: the_bet
+  period: 19th_century
+  region: russian
+  filename: chekhov_the_bet.txt
+  quality_tier: canonical
+  title: The Bet
+  author: Chekhov
+  expected_recognition: to_be_determined
+- id: chekhov_ward_no_6
+  path: data/corpus/19th_century/russian/chekhov_ward_no_6.txt
+  author_slug: chekhov
+  title_slug: ward_no_6
+  period: 19th_century
+  region: russian
+  filename: chekhov_ward_no_6.txt
+  quality_tier: canonical
+  title: Ward No 6
+  author: Chekhov
+  expected_recognition: to_be_determined
+- id: chopin_story_of_an_hour
+  path: data/corpus/19th_century/american/chopin_story_of_an_hour.txt
+  author_slug: chopin
+  title_slug: story_of_an_hour
+  period: 19th_century
+  region: american
+  filename: chopin_story_of_an_hour.txt
+  quality_tier: canonical
+  title: Story of An Hour
+  author: Chopin
+  expected_recognition: to_be_determined
+- id: crane_open_boat
+  path: data/corpus/modern/american/crane_open_boat.txt
+  author_slug: crane
+  title_slug: open_boat
+  period: modern
+  region: american
+  filename: crane_open_boat.txt
+  quality_tier: canonical
+  title: Open Boat
+  author: Crane
+  expected_recognition: to_be_determined
+- id: faulkner_barn_burning
+  path: data/corpus/modern/american/faulkner_barn_burning.txt
+  author_slug: faulkner
+  title_slug: barn_burning
+  period: modern
+  region: american
+  filename: faulkner_barn_burning.txt
+  quality_tier: canonical
+  title: Barn Burning
+  author: Faulkner
+  expected_recognition: to_be_determined
+- id: faulkner_rose_emily
+  path: data/corpus/modern/american/faulkner_rose_emily.txt
+  author_slug: faulkner
+  title_slug: rose_emily
+  period: modern
+  region: american
+  filename: faulkner_rose_emily.txt
+  quality_tier: canonical
+  title: Rose Emily
+  author: Faulkner
+  expected_recognition: to_be_determined
+- id: gilman_yellow_wallpaper
+  path: data/corpus/modern/american/gilman_yellow_wallpaper.txt
+  author_slug: gilman
+  title_slug: yellow_wallpaper
+  period: modern
+  region: american
+  filename: gilman_yellow_wallpaper.txt
+  quality_tier: canonical
+  title: Yellow Wallpaper
+  author: Gilman
+  expected_recognition: to_be_determined
+- id: gogol_overcoat
+  path: data/corpus/19th_century/russian/gogol_overcoat.txt
+  author_slug: gogol
+  title_slug: overcoat
+  period: 19th_century
+  region: russian
+  filename: gogol_overcoat.txt
+  quality_tier: canonical
+  title: Overcoat
+  author: Gogol
+  expected_recognition: to_be_determined
+- id: greene_destructors
+  path: data/corpus/postwar/british/greene_destructors.txt
+  author_slug: greene
+  title_slug: destructors
+  period: postwar
+  region: british
+  filename: greene_destructors.txt
+  quality_tier: canonical
+  title: Destructors
+  author: Greene
+  expected_recognition: to_be_determined
+- id: hawthorne_young_goodman_brown
+  path: data/corpus/19th_century/american/hawthorne_young_goodman_brown.txt
+  author_slug: hawthorne
+  title_slug: young_goodman_brown
+  period: 19th_century
+  region: american
+  filename: hawthorne_young_goodman_brown.txt
+  quality_tier: canonical
+  title: Young Goodman Brown
+  author: Hawthorne
+  expected_recognition: to_be_determined
+- id: hemingway_clean_well_lighted
+  path: data/corpus/modern/american/hemingway_clean_well_lighted.txt
+  author_slug: hemingway
+  title_slug: clean_well_lighted
+  period: modern
+  region: american
+  filename: hemingway_clean_well_lighted.txt
+  quality_tier: canonical
+  title: Clean Well Lighted
+  author: Hemingway
+  expected_recognition: to_be_determined
+- id: hemingway_hills_like_white_elephants
+  path: data/corpus/modern/american/hemingway_hills_like_white_elephants.txt
+  author_slug: hemingway
+  title_slug: hills_like_white_elephants
+  period: modern
+  region: american
+  filename: hemingway_hills_like_white_elephants.txt
+  quality_tier: canonical
+  title: Hills Like White Elephants
+  author: Hemingway
+  expected_recognition: to_be_determined
+- id: jackson_lottery
+  path: data/corpus/modern/american/jackson_lottery.txt
+  author_slug: jackson
+  title_slug: lottery
+  period: modern
+  region: american
+  filename: jackson_lottery.txt
+  quality_tier: canonical
+  title: Lottery
+  author: Jackson
+  expected_recognition: to_be_determined
+- id: joyce_araby
+  path: data/corpus/modern/irish/joyce_araby.txt
+  author_slug: joyce
+  title_slug: araby
+  period: modern
+  region: irish
+  filename: joyce_araby.txt
+  quality_tier: canonical
+  title: Araby
+  author: Joyce
+  expected_recognition: to_be_determined
+- id: joyce_eveline
+  path: data/corpus/modern/irish/joyce_eveline.txt
+  author_slug: joyce
+  title_slug: eveline
+  period: modern
+  region: irish
+  filename: joyce_eveline.txt
+  quality_tier: canonical
+  title: Eveline
+  author: Joyce
+  expected_recognition: to_be_determined
+- id: joyce_the_dead
+  path: data/corpus/modern/irish/joyce_the_dead.txt
+  author_slug: joyce
+  title_slug: the_dead
+  period: modern
+  region: irish
+  filename: joyce_the_dead.txt
+  quality_tier: canonical
+  title: The Dead
+  author: Joyce
+  expected_recognition: to_be_determined
+- id: kafka_in_penal_colony
+  path: data/corpus/modern/austro-hungarian/kafka_in_penal_colony.txt
+  author_slug: kafka
+  title_slug: in_penal_colony
+  period: modern
+  region: austro-hungarian
+  filename: kafka_in_penal_colony.txt
+  quality_tier: canonical
+  title: In Penal Colony
+  author: Kafka
+  expected_recognition: to_be_determined
+- id: kafka_metamorphosis
+  path: data/corpus/modern/austro-hungarian/kafka_metamorphosis.txt
+  author_slug: kafka
+  title_slug: metamorphosis
+  period: modern
+  region: austro-hungarian
+  filename: kafka_metamorphosis.txt
+  quality_tier: canonical
+  title: Metamorphosis
+  author: Kafka
+  expected_recognition: to_be_determined
+- id: kincaid_girl
+  path: data/corpus/modern/american/kincaid_girl.txt
+  author_slug: kincaid
+  title_slug: girl
+  period: modern
+  region: american
+  filename: kincaid_girl.txt
+  quality_tier: canonical
+  title: Girl
+  author: Kincaid
+  expected_recognition: to_be_determined
+- id: lahiri_temporary_matter
+  path: data/corpus/modern/american/lahiri_temporary_matter.txt
+  author_slug: lahiri
+  title_slug: temporary_matter
+  period: modern
+  region: american
+  filename: lahiri_temporary_matter.txt
+  quality_tier: canonical
+  title: Temporary Matter
+  author: Lahiri
+  expected_recognition: to_be_determined
+- id: lawrence_rocking_horse_winner
+  path: data/corpus/modern/british/lawrence_rocking_horse_winner.txt
+  author_slug: lawrence
+  title_slug: rocking_horse_winner
+  period: modern
+  region: british
+  filename: lawrence_rocking_horse_winner.txt
+  quality_tier: canonical
+  title: Rocking Horse Winner
+  author: Lawrence
+  expected_recognition: to_be_determined
+- id: london_to_build_a_fire
+  path: data/corpus/modern/american/london_to_build_a_fire.txt
+  author_slug: london
+  title_slug: to_build_a_fire
+  period: modern
+  region: american
+  filename: london_to_build_a_fire.txt
+  quality_tier: canonical
+  title: To Build a Fire
+  author: London
+  expected_recognition: to_be_determined
+- id: lu_xun_madman_diary
+  path: data/corpus/modern/chinese/lu_xun_madman_diary.txt
+  author_slug: lu
+  title_slug: xun_madman_diary
+  period: modern
+  region: chinese
+  filename: lu_xun_madman_diary.txt
+  quality_tier: canonical
+  title: Xun Madman Diary
+  author: Lu
+  expected_recognition: to_be_determined
+- id: marquez_handsomest_drowned_man
+  path: data/corpus/modern/colombian/marquez_handsomest_drowned_man.txt
+  author_slug: marquez
+  title_slug: handsomest_drowned_man
+  period: modern
+  region: colombian
+  filename: marquez_handsomest_drowned_man.txt
+  quality_tier: canonical
+  title: Handsomest Drowned Man
+  author: Marquez
+  expected_recognition: to_be_determined
+- id: marquez_very_old_man_enormous_wings
+  path: data/corpus/modern/colombian/marquez_very_old_man_enormous_wings.txt
+  author_slug: marquez
+  title_slug: very_old_man_enormous_wings
+  period: modern
+  region: colombian
+  filename: marquez_very_old_man_enormous_wings.txt
+  quality_tier: canonical
+  title: Very Old Man Enormous Wings
+  author: Marquez
+  expected_recognition: to_be_determined
+- id: maupassant_boule_de_suif
+  path: data/corpus/19th_century/french/maupassant_boule_de_suif.txt
+  author_slug: maupassant
+  title_slug: boule_de_suif
+  period: 19th_century
+  region: french
+  filename: maupassant_boule_de_suif.txt
+  quality_tier: canonical
+  title: Boule De Suif
+  author: Maupassant
+  expected_recognition: to_be_determined
+- id: maupassant_horla
+  path: data/corpus/19th_century/french/maupassant_horla.txt
+  author_slug: maupassant
+  title_slug: horla
+  period: 19th_century
+  region: french
+  filename: maupassant_horla.txt
+  quality_tier: canonical
+  title: Horla
+  author: Maupassant
+  expected_recognition: to_be_determined
+- id: maupassant_necklace
+  path: data/corpus/19th_century/french/maupassant_necklace.txt
+  author_slug: maupassant
+  title_slug: necklace
+  period: 19th_century
+  region: french
+  filename: maupassant_necklace.txt
+  quality_tier: canonical
+  title: Necklace
+  author: Maupassant
+  expected_recognition: to_be_determined
+- id: oates_where_are_you_going_where_have_you_been
+  path: data/corpus/modern/american/oates_where_are_you_going_where_have_you_been.txt
+  author_slug: oates
+  title_slug: where_are_you_going_where_have_you_been
+  period: modern
+  region: american
+  filename: oates_where_are_you_going_where_have_you_been.txt
+  quality_tier: canonical
+  title: Where Are You Going Where Have You Been
+  author: Oates
+  expected_recognition: to_be_determined
+- id: obrien_things_they_carried
+  path: data/corpus/postwar/american/obrien_things_they_carried.txt
+  author_slug: obrien
+  title_slug: things_they_carried
+  period: postwar
+  region: american
+  filename: obrien_things_they_carried.txt
+  quality_tier: canonical
+  title: Things They Carried
+  author: Obrien
+  expected_recognition: to_be_determined
+- id: oconnor_everything_that_rises_must_converge
+  path: data/corpus/modern/american/oconnor_everything_that_rises_must_converge.txt
+  author_slug: oconnor
+  title_slug: everything_that_rises_must_converge
+  period: modern
+  region: american
+  filename: oconnor_everything_that_rises_must_converge.txt
+  quality_tier: canonical
+  title: Everything That Rises Must Converge
+  author: Flannery O'Connor
+  expected_recognition: to_be_determined
+- id: oconnor_good_country_people
+  path: data/corpus/postwar/american/oconnor_good_country_people.txt
+  author_slug: oconnor
+  title_slug: good_country_people
+  period: postwar
+  region: american
+  filename: oconnor_good_country_people.txt
+  quality_tier: canonical
+  title: Good Country People
+  author: Flannery O'Connor
+  expected_recognition: to_be_determined
+- id: oconnor_good_man_hard_to_find
+  path: data/corpus/modern/american/oconnor_good_man_hard_to_find.txt
+  author_slug: oconnor
+  title_slug: good_man_hard_to_find
+  period: modern
+  region: american
+  filename: oconnor_good_man_hard_to_find.txt
+  quality_tier: canonical
+  title: Good Man Hard To Find
+  author: Flannery O'Connor
+  expected_recognition: to_be_determined
+- id: ohenry_gift_of_magi
+  path: data/corpus/modern/american/ohenry_gift_of_magi.txt
+  author_slug: ohenry
+  title_slug: gift_of_magi
+  period: modern
+  region: american
+  filename: ohenry_gift_of_magi.txt
+  quality_tier: canonical
+  title: Gift of Magi
+  author: Ohenry
+  expected_recognition: to_be_determined
+- id: ohenry_last_leaf
+  path: data/corpus/modern/american/ohenry_last_leaf.txt
+  author_slug: ohenry
+  title_slug: last_leaf
+  period: modern
+  region: american
+  filename: ohenry_last_leaf.txt
+  quality_tier: canonical
+  title: Last Leaf
+  author: Ohenry
+  expected_recognition: to_be_determined
+- id: poe_fall_house_usher
+  path: data/corpus/19th_century/american/poe_fall_house_usher.txt
+  author_slug: poe
+  title_slug: fall_house_usher
+  period: 19th_century
+  region: american
+  filename: poe_fall_house_usher.txt
+  quality_tier: canonical
+  title: Fall House Usher
+  author: Poe
+  expected_recognition: to_be_determined
+- id: poe_purloined_letter
+  path: data/corpus/19th_century/american/poe_purloined_letter.txt
+  author_slug: poe
+  title_slug: purloined_letter
+  period: 19th_century
+  region: american
+  filename: poe_purloined_letter.txt
+  quality_tier: canonical
+  title: Purloined Letter
+  author: Poe
+  expected_recognition: to_be_determined
+- id: saki_open_window
+  path: data/corpus/modern/british/saki_open_window.txt
+  author_slug: saki
+  title_slug: open_window
+  period: modern
+  region: british
+  filename: saki_open_window.txt
+  quality_tier: canonical
+  title: Open Window
+  author: Saki
+  expected_recognition: to_be_determined
+- id: saunders_civilwarland_bad_decline
+  path: data/corpus/contemporary/american/saunders_civilwarland_bad_decline.txt
+  author_slug: saunders
+  title_slug: civilwarland_bad_decline
+  period: contemporary
+  region: american
+  filename: saunders_civilwarland_bad_decline.txt
+  quality_tier: canonical
+  title: Civilwarland Bad Decline
+  author: Saunders
+  expected_recognition: to_be_determined
+- id: saunders_victory_lap
+  path: data/corpus/contemporary/american/saunders_victory_lap.txt
+  author_slug: saunders
+  title_slug: victory_lap
+  period: contemporary
+  region: american
+  filename: saunders_victory_lap.txt
+  quality_tier: canonical
+  title: Victory Lap
+  author: Saunders
+  expected_recognition: to_be_determined
+- id: stevenson_dr_jekyll_mr_hyde
+  path: data/corpus/19th_century/british/stevenson_dr_jekyll_mr_hyde.txt
+  author_slug: stevenson
+  title_slug: dr_jekyll_mr_hyde
+  period: 19th_century
+  region: british
+  filename: stevenson_dr_jekyll_mr_hyde.txt
+  quality_tier: canonical
+  title: Dr Jekyll Mr Hyde
+  author: Stevenson
+  expected_recognition: to_be_determined
+- id: tolstoy_how_much_land
+  path: data/corpus/19th_century/russian/tolstoy_how_much_land.txt
+  author_slug: tolstoy
+  title_slug: how_much_land
+  period: 19th_century
+  region: russian
+  filename: tolstoy_how_much_land.txt
+  quality_tier: canonical
+  title: How Much Land
+  author: Tolstoy
+  expected_recognition: to_be_determined
+- id: wharton_roman_fever
+  path: data/corpus/modern/american/wharton_roman_fever.txt
+  author_slug: wharton
+  title_slug: roman_fever
+  period: modern
+  region: american
+  filename: wharton_roman_fever.txt
+  quality_tier: canonical
+  title: Roman Fever
+  author: Wharton
+  expected_recognition: to_be_determined
+- id: woolf_kew_gardens
+  path: data/corpus/modern/british/woolf_kew_gardens.txt
+  author_slug: woolf
+  title_slug: kew_gardens
+  period: modern
+  region: british
+  filename: woolf_kew_gardens.txt
+  quality_tier: canonical
+  title: Kew Gardens
+  author: Woolf
+  expected_recognition: to_be_determined
+- id: woolf_mark_on_wall
+  path: data/corpus/modern/british/woolf_mark_on_wall.txt
+  author_slug: woolf
+  title_slug: mark_on_wall
+  period: modern
+  region: british
+  filename: woolf_mark_on_wall.txt
+  quality_tier: canonical
+  title: Mark On Wall
+  author: Woolf
+  expected_recognition: to_be_determined
+pulp_stories:
+- id: bower_chip_of_the_flying_u
+  path: data/pulp_fiction/bower_chip_of_the_flying_u.txt
+  author_slug: bower
+  title_slug: chip_of_the_flying_u
+  filename: bower_chip_of_the_flying_u.txt
+  quality_tier: pulp
+  title: Chip Of The Flying U
+  author: Bower
+  expected_recognition: to_be_determined
+- id: brand_destry_rides_again
+  path: data/pulp_fiction/brand_destry_rides_again.txt
+  author_slug: brand
+  title_slug: destry_rides_again
+  filename: brand_destry_rides_again.txt
+  quality_tier: pulp
+  title: Destry Rides Again
+  author: Brand
+  expected_recognition: to_be_determined
+- id: brand_the_untamed
+  path: data/pulp_fiction/brand_the_untamed.txt
+  author_slug: brand
+  title_slug: the_untamed
+  filename: brand_the_untamed.txt
+  quality_tier: pulp
+  title: The Untamed
+  author: Brand
+  expected_recognition: to_be_determined
+- id: burroughs_princess_of_mars
+  path: data/pulp_fiction/burroughs_princess_of_mars.txt
+  author_slug: burroughs
+  title_slug: princess_of_mars
+  filename: burroughs_princess_of_mars.txt
+  quality_tier: pulp
+  title: Princess Of Mars
+  author: Burroughs
+  expected_recognition: to_be_determined
+- id: burroughs_tarzan_of_apes
+  path: data/pulp_fiction/burroughs_tarzan_of_apes.txt
+  author_slug: burroughs
+  title_slug: tarzan_of_apes
+  filename: burroughs_tarzan_of_apes.txt
+  quality_tier: pulp
+  title: Tarzan Of Apes
+  author: Burroughs
+  expected_recognition: to_be_determined
+- id: carter_nick_carter_stories
+  path: data/pulp_fiction/carter_nick_carter_stories.txt
+  author_slug: carter
+  title_slug: nick_carter_stories
+  filename: carter_nick_carter_stories.txt
+  quality_tier: pulp
+  title: Nick Carter Stories
+  author: Carter
+  expected_recognition: to_be_determined
+- id: chambers_king_in_yellow
+  path: data/pulp_fiction/chambers_king_in_yellow.txt
+  author_slug: chambers
+  title_slug: king_in_yellow
+  filename: chambers_king_in_yellow.txt
+  quality_tier: pulp
+  title: King In Yellow
+  author: Chambers
+  expected_recognition: to_be_determined
+- id: cummings_girl_in_golden_atom
+  path: data/pulp_fiction/cummings_girl_in_golden_atom.txt
+  author_slug: cummings
+  title_slug: girl_in_golden_atom
+  filename: cummings_girl_in_golden_atom.txt
+  quality_tier: pulp
+  title: Girl In Golden Atom
+  author: Cummings
+  expected_recognition: to_be_determined
+- id: doyle_hound_of_the_baskervilles
+  path: data/pulp_fiction/doyle_hound_of_the_baskervilles.txt
+  author_slug: doyle
+  title_slug: hound_of_the_baskervilles
+  filename: doyle_hound_of_the_baskervilles.txt
+  quality_tier: pulp
+  title: Hound Of The Baskervilles
+  author: Doyle
+  expected_recognition: to_be_determined
+- id: england_darkness_and_dawn
+  path: data/pulp_fiction/england_darkness_and_dawn.txt
+  author_slug: england
+  title_slug: darkness_and_dawn
+  filename: england_darkness_and_dawn.txt
+  quality_tier: pulp
+  title: Darkness And Dawn
+  author: England
+  expected_recognition: to_be_determined
+- id: grey_desert_gold
+  path: data/pulp_fiction/grey_desert_gold.txt
+  author_slug: grey
+  title_slug: desert_gold
+  filename: grey_desert_gold.txt
+  quality_tier: pulp
+  title: Desert Gold
+  author: Grey
+  expected_recognition: to_be_determined
+- id: grey_heritage_of_the_desert
+  path: data/pulp_fiction/grey_heritage_of_the_desert.txt
+  author_slug: grey
+  title_slug: heritage_of_the_desert
+  filename: grey_heritage_of_the_desert.txt
+  quality_tier: pulp
+  title: Heritage Of The Desert
+  author: Grey
+  expected_recognition: to_be_determined
+- id: grey_man_of_the_forest
+  path: data/pulp_fiction/grey_man_of_the_forest.txt
+  author_slug: grey
+  title_slug: man_of_the_forest
+  filename: grey_man_of_the_forest.txt
+  quality_tier: pulp
+  title: Man Of The Forest
+  author: Grey
+  expected_recognition: to_be_determined
+- id: grey_riders_of_purple_sage
+  path: data/pulp_fiction/grey_riders_of_purple_sage.txt
+  author_slug: grey
+  title_slug: riders_of_purple_sage
+  filename: grey_riders_of_purple_sage.txt
+  quality_tier: pulp
+  title: Riders Of Purple Sage
+  author: Grey
+  expected_recognition: to_be_determined
+- id: haggard_allan_quatermain
+  path: data/pulp_fiction/haggard_allan_quatermain.txt
+  author_slug: haggard
+  title_slug: allan_quatermain
+  filename: haggard_allan_quatermain.txt
+  quality_tier: pulp
+  title: Allan Quatermain
+  author: Haggard
+  expected_recognition: to_be_determined
+- id: haggard_king_solomons_mines
+  path: data/pulp_fiction/haggard_king_solomons_mines.txt
+  author_slug: haggard
+  title_slug: king_solomons_mines
+  filename: haggard_king_solomons_mines.txt
+  quality_tier: pulp
+  title: King Solomons Mines
+  author: Haggard
+  expected_recognition: to_be_determined
+- id: haggard_she
+  path: data/pulp_fiction/haggard_she.txt
+  author_slug: haggard
+  title_slug: she
+  filename: haggard_she.txt
+  quality_tier: pulp
+  title: She
+  author: Haggard
+  expected_recognition: to_be_determined
+- id: leinster_mad_planet
+  path: data/pulp_fiction/leinster_mad_planet.txt
+  author_slug: leinster
+  title_slug: mad_planet
+  filename: leinster_mad_planet.txt
+  quality_tier: pulp
+  title: Mad Planet
+  author: Leinster
+  expected_recognition: to_be_determined
+- id: lovecraft_dunwich_horror
+  path: data/pulp_fiction/lovecraft_dunwich_horror.txt
+  author_slug: lovecraft
+  title_slug: dunwich_horror
+  filename: lovecraft_dunwich_horror.txt
+  quality_tier: pulp
+  title: Dunwich Horror
+  author: Lovecraft
+  expected_recognition: to_be_determined
+- id: mcculley_curse_of_capistrano
+  path: data/pulp_fiction/mcculley_curse_of_capistrano.txt
+  author_slug: mcculley
+  title_slug: curse_of_capistrano
+  filename: mcculley_curse_of_capistrano.txt
+  quality_tier: pulp
+  title: Curse Of Capistrano
+  author: Mcculley
+  expected_recognition: to_be_determined
+- id: mcculley_mark_of_zorro
+  path: data/pulp_fiction/mcculley_mark_of_zorro.txt
+  author_slug: mcculley
+  title_slug: mark_of_zorro
+  filename: mcculley_mark_of_zorro.txt
+  quality_tier: pulp
+  title: Mark Of Zorro
+  author: Mcculley
+  expected_recognition: to_be_determined
+- id: merritt_moon_pool
+  path: data/pulp_fiction/merritt_moon_pool.txt
+  author_slug: merritt
+  title_slug: moon_pool
+  filename: merritt_moon_pool.txt
+  quality_tier: pulp
+  title: Moon Pool
+  author: Merritt
+  expected_recognition: to_be_determined
+- id: mulford_bar20_days
+  path: data/pulp_fiction/mulford_bar20_days.txt
+  author_slug: mulford
+  title_slug: bar20_days
+  filename: mulford_bar20_days.txt
+  quality_tier: pulp
+  title: Bar20 Days
+  author: Mulford
+  expected_recognition: to_be_determined
+- id: mulford_hopalong_cassidy
+  path: data/pulp_fiction/mulford_hopalong_cassidy.txt
+  author_slug: mulford
+  title_slug: hopalong_cassidy
+  filename: mulford_hopalong_cassidy.txt
+  quality_tier: pulp
+  title: Hopalong Cassidy
+  author: Mulford
+  expected_recognition: to_be_determined
+- id: mundy_kingof_the_khyber_rifles
+  path: data/pulp_fiction/mundy_kingof_the_khyber_rifles.txt
+  author_slug: mundy
+  title_slug: kingof_the_khyber_rifles
+  filename: mundy_kingof_the_khyber_rifles.txt
+  quality_tier: pulp
+  title: Kingof The Khyber Rifles
+  author: Mundy
+  expected_recognition: to_be_determined
+- id: oppenheim_black_box
+  path: data/pulp_fiction/oppenheim_black_box.txt
+  author_slug: oppenheim
+  title_slug: black_box
+  filename: oppenheim_black_box.txt
+  quality_tier: pulp
+  title: Black Box
+  author: Oppenheim
+  expected_recognition: to_be_determined
+- id: oppenheim_double_four
+  path: data/pulp_fiction/oppenheim_double_four.txt
+  author_slug: oppenheim
+  title_slug: double_four
+  filename: oppenheim_double_four.txt
+  quality_tier: pulp
+  title: Double Four
+  author: Oppenheim
+  expected_recognition: to_be_determined
+- id: oppenheim_great_impersonation
+  path: data/pulp_fiction/oppenheim_great_impersonation.txt
+  author_slug: oppenheim
+  title_slug: great_impersonation
+  filename: oppenheim_great_impersonation.txt
+  quality_tier: pulp
+  title: Great Impersonation
+  author: Oppenheim
+  expected_recognition: to_be_determined
+- id: reeve_silent_bullet
+  path: data/pulp_fiction/reeve_silent_bullet.txt
+  author_slug: reeve
+  title_slug: silent_bullet
+  filename: reeve_silent_bullet.txt
+  quality_tier: pulp
+  title: Silent Bullet
+  author: Reeve
+  expected_recognition: to_be_determined
+- id: rohmer_dr_fu_manchu
+  path: data/pulp_fiction/rohmer_dr_fu_manchu.txt
+  author_slug: rohmer
+  title_slug: dr_fu_manchu
+  filename: rohmer_dr_fu_manchu.txt
+  quality_tier: pulp
+  title: Dr Fu Manchu
+  author: Rohmer
+  expected_recognition: to_be_determined
+- id: sabatini_scaramouche
+  path: data/pulp_fiction/sabatini_scaramouche.txt
+  author_slug: sabatini
+  title_slug: scaramouche
+  filename: sabatini_scaramouche.txt
+  quality_tier: pulp
+  title: Scaramouche
+  author: Sabatini
+  expected_recognition: to_be_determined
+- id: wallace_crimson_circle
+  path: data/pulp_fiction/wallace_crimson_circle.txt
+  author_slug: wallace
+  title_slug: crimson_circle
+  filename: wallace_crimson_circle.txt
+  quality_tier: pulp
+  title: Crimson Circle
+  author: Wallace
+  expected_recognition: to_be_determined
+- id: wallace_daffodil_mystery
+  path: data/pulp_fiction/wallace_daffodil_mystery.txt
+  author_slug: wallace
+  title_slug: daffodil_mystery
+  filename: wallace_daffodil_mystery.txt
+  quality_tier: pulp
+  title: Daffodil Mystery
+  author: Wallace
+  expected_recognition: to_be_determined
+llm_generated_stories:
+- id: high_01_magic_score3_78
+  path: data/llm_generated/online/high_01_magic_score3_78.txt
+  filename: high_01_magic_score3_78.txt
+  quality_tier: llm_generated
+  quality_level: high
+  theme: magic
+  overall_score: 3.781
+  title: Magic Story
+  author: LLM Generated
+- id: high_02_crime_score3_75
+  path: data/llm_generated/online/high_02_crime_score3_75.txt
+  filename: high_02_crime_score3_75.txt
+  quality_tier: llm_generated
+  quality_level: high
+  theme: crime
+  overall_score: 3.75
+  title: Crime Story
+  author: LLM Generated
+- id: high_03_supernatural_score3_66
+  path: data/llm_generated/online/high_03_supernatural_score3_66.txt
+  filename: high_03_supernatural_score3_66.txt
+  quality_tier: llm_generated
+  quality_level: high
+  theme: supernatural
+  overall_score: 3.656
+  title: Supernatural Story
+  author: LLM Generated
+- id: high_04_dystopian_score3_62
+  path: data/llm_generated/online/high_04_dystopian_score3_62.txt
+  filename: high_04_dystopian_score3_62.txt
+  quality_tier: llm_generated
+  quality_level: high
+  theme: crime
+  overall_score: 3.625
+  title: Dystopian Story
+  author: LLM Generated
+- id: high_05_western_score3_59
+  path: data/llm_generated/online/high_05_western_score3_59.txt
+  filename: high_05_western_score3_59.txt
+  quality_tier: llm_generated
+  quality_level: high
+  theme: western
+  overall_score: 3.594
+  title: Western Story
+  author: LLM Generated
+- id: high_06_comedy_score3_59
+  path: data/llm_generated/online/high_06_comedy_score3_59.txt
+  filename: high_06_comedy_score3_59.txt
+  quality_tier: llm_generated
+  quality_level: high
+  theme: western
+  overall_score: 3.594
+  title: Comedy Story
+  author: LLM Generated
+- id: high_07_adventure_score3_59
+  path: data/llm_generated/online/high_07_adventure_score3_59.txt
+  filename: high_07_adventure_score3_59.txt
+  quality_tier: llm_generated
+  quality_level: high
+  theme: western
+  overall_score: 3.594
+  title: Adventure Story
+  author: LLM Generated
+- id: high_08_dystopian_score3_59
+  path: data/llm_generated/online/high_08_dystopian_score3_59.txt
+  filename: high_08_dystopian_score3_59.txt
+  quality_tier: llm_generated
+  quality_level: high
+  theme: western
+  overall_score: 3.594
+  title: Dystopian Story
+  author: LLM Generated
+- id: high_09_adventure_score3_59
+  path: data/llm_generated/online/high_09_adventure_score3_59.txt
+  filename: high_09_adventure_score3_59.txt
+  quality_tier: llm_generated
+  quality_level: high
+  theme: western
+  overall_score: 3.594
+  title: Adventure Story
+  author: LLM Generated
+- id: high_10_supernatural_score3_58
+  path: data/llm_generated/online/high_10_supernatural_score3_58.txt
+  filename: high_10_supernatural_score3_58.txt
+  quality_tier: llm_generated
+  quality_level: high
+  theme: comedy
+  overall_score: 3.578
+  title: Supernatural Story
+  author: LLM Generated
+- id: avg_01_adventure_score3_40
+  path: data/llm_generated/online/avg_01_adventure_score3_40.txt
+  filename: avg_01_adventure_score3_40.txt
+  quality_tier: llm_generated
+  quality_level: avg
+  theme: aventura
+  overall_score: 3.397058823529412
+  title: Adventure Story
+  author: LLM Generated
+- id: avg_02_western_score3_40
+  path: data/llm_generated/online/avg_02_western_score3_40.txt
+  filename: avg_02_western_score3_40.txt
+  quality_tier: llm_generated
+  quality_level: avg
+  theme: western
+  overall_score: 3.397058823529412
+  title: Western Story
+  author: LLM Generated
+- id: avg_03_fantasy_score3_40
+  path: data/llm_generated/online/avg_03_fantasy_score3_40.txt
+  filename: avg_03_fantasy_score3_40.txt
+  quality_tier: llm_generated
+  quality_level: avg
+  theme: fantasía
+  overall_score: 3.397058823529412
+  title: Fantasy Story
+  author: LLM Generated
+- id: avg_04_horror_score3_40
+  path: data/llm_generated/online/avg_04_horror_score3_40.txt
+  filename: avg_04_horror_score3_40.txt
+  quality_tier: llm_generated
+  quality_level: avg
+  theme: terror
+  overall_score: 3.397058823529412
+  title: Horror Story
+  author: LLM Generated
+- id: avg_05_crime_score3_40
+  path: data/llm_generated/online/avg_05_crime_score3_40.txt
+  filename: avg_05_crime_score3_40.txt
+  quality_tier: llm_generated
+  quality_level: avg
+  theme: Krimi
+  overall_score: 3.397058823529412
+  title: Crime Story
+  author: LLM Generated
+- id: low_01_adventure_score2_58
+  path: data/llm_generated/online/low_01_adventure_score2_58.txt
+  filename: low_01_adventure_score2_58.txt
+  quality_tier: llm_generated
+  quality_level: low
+  theme: adventure
+  overall_score: 2.578
+  title: Adventure Story
+  author: LLM Generated
+- id: low_02_comedy_score2_56
+  path: data/llm_generated/online/low_02_comedy_score2_56.txt
+  filename: low_02_comedy_score2_56.txt
+  quality_tier: llm_generated
+  quality_level: low
+  theme: crime
+  overall_score: 2.562
+  title: Comedy Story
+  author: LLM Generated
+- id: low_03_historical_fiction_score2_56
+  path: data/llm_generated/online/low_03_historical_fiction_score2_56.txt
+  filename: low_03_historical_fiction_score2_56.txt
+  quality_tier: llm_generated
+  quality_level: low
+  theme: crime
+  overall_score: 2.562
+  title: Historical Story
+  author: LLM Generated
+- id: low_04_crime_score2_56
+  path: data/llm_generated/online/low_04_crime_score2_56.txt
+  filename: low_04_crime_score2_56.txt
+  quality_tier: llm_generated
+  quality_level: low
+  theme: crime
+  overall_score: 2.562
+  title: Crime Story
+  author: LLM Generated
+- id: low_05_western_score2_56
+  path: data/llm_generated/online/low_05_western_score2_56.txt
+  filename: low_05_western_score2_56.txt
+  quality_tier: llm_generated
+  quality_level: low
+  theme: crime
+  overall_score: 2.562
+  title: Western Story
+  author: LLM Generated
