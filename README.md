@@ -10,7 +10,7 @@ A comprehensive framework for multi-dimensional narrative quality assessment com
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
 [![Paper](https://img.shields.io/badge/Paper-Under%20Review-orange.svg)](#)
 
-**[🚀 Quick Start](QUICKSTART.md)** • [Features](#-features) • [Architecture](#-architecture) • [Documentation](#-documentation) • [Research](#-research)
+**[🚀 Quick Start](#-quick-start)** • [Architecture](#-architecture) • [Results](#-experimental-results) • [Research](#-research)
 
 </div>
 
@@ -68,8 +68,6 @@ PYTHONPATH=src ./.venv/bin/python scripts/batch_evaluate.py \
 # Generate analysis report
 PYTHONPATH=src ./.venv/bin/python scripts/analyze_results.py -o report.txt
 ```
-
-**📖 Full documentation: [QUICKSTART.md](QUICKSTART.md)**
 
 ---
 
@@ -165,11 +163,8 @@ Full results for 600 evaluations (100 stories × 3 layers × 2 modes) are in [`r
 
 ## 📚 Documentation
 
-- **[QUICKSTART.md](QUICKSTART.md)** - 命令行使用指南
-- **[scripts/SCRIPTS_ORGANIZATION.md](scripts/SCRIPTS_ORGANIZATION.md)** - 脚本组织说明
-- **[docs/COMPLETE_FIX_SUMMARY.md](docs/COMPLETE_FIX_SUMMARY.md)** - Layer 2/3 修复总结
-- **[docs/RESULTS_ANALYSIS.md](docs/RESULTS_ANALYSIS.md)** - 结果分析详细指南
-- **[config/llm_models.yaml](config/llm_models.yaml)** - LLM 模型配置
+- **[config/llm_models.yaml](config/llm_models.yaml)** - LLM model configurations
+- **[results/](results/)** - Full evaluation results (600 evaluations)
 
 ---
 
@@ -207,7 +202,7 @@ If you use this framework in your research, please cite:
 - [x] OpenAI API compatibility (GPT-5, GPT-5-mini)
 - [x] Batch evaluation system
 - [x] Analysis and reporting tools
-- [x] 54-story corpus curation
+- [x] 100-story corpus curation
 
 ### 🔧 Recent Fixes (2025-11-21)
 - [x] Layer 2/3 scoring normalization (3x improvement)
@@ -219,13 +214,13 @@ If you use this framework in your research, please cite:
 
 ## 🤝 Contributing
 
-Contributions welcome! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+Contributions welcome! Feel free to open an issue or submit a pull request.
 
 ---
 
 ## 📄 License
 
-This project is licensed under the MIT License - see [LICENSE](LICENSE) file for details.
+This project is licensed under the Apache License 2.0 - see [LICENSE](LICENSE) file for details.
 
 ---
 
@@ -233,8 +228,8 @@ This project is licensed under the MIT License - see [LICENSE](LICENSE) file for
 
 - OpenAI for GPT models
 - Google for Gemini models
-- The authors of the 54 classic stories in our corpus
+- The authors of the 100 stories in our corpus
 
 ---
 
-**Questions?** Check [QUICKSTART.md](QUICKSTART.md) or open an issue.
+**Questions?** Open an issue on GitHub.
