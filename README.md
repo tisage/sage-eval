@@ -7,8 +7,8 @@
 A comprehensive framework for multi-dimensional narrative quality assessment combining rule-based metrics and LLM-powered evaluation.
 
 [![Python](https://img.shields.io/badge/Python-3.11+-blue.svg)](https://python.org)
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Paper](https://img.shields.io/badge/Paper-AAAI%202025-red.svg)](#)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
+[![Paper](https://img.shields.io/badge/Paper-Under%20Review-orange.svg)](#)
 
 **[🚀 Quick Start](QUICKSTART.md)** • [Features](#-features) • [Architecture](#-architecture) • [Documentation](#-documentation) • [Research](#-research)
 
@@ -24,7 +24,7 @@ A comprehensive framework for multi-dimensional narrative quality assessment com
 
 - **📊 Six-Layer Evaluation** - From lexical features to existential depth
 - **🤖 Hybrid Approach** - Rule-based + LLM evaluation
-- **📚 54 Classic Stories** - Curated corpus of world literature
+- **📚 100 Stories** - Curated corpus (50 canonical, 30 pulp, 20 LLM-generated)
 - **🔬 Research-Grade** - Designed for computational narrative analysis
 - **⚡ Production-Ready** - Scalable batch processing with gpt-5-mini
 
@@ -73,19 +73,26 @@ PYTHONPATH=src ./.venv/bin/python scripts/analyze_results.py -o report.txt
 
 ---
 
-## 📊 Sample Results
+## 📊 Experimental Results
 
-Example output for Kafka's "Metamorphosis":
+Full results for 600 evaluations (100 stories × 3 layers × 2 modes) are in [`results/`](results/).
 
-| Layer | Score | Key Findings |
-|-------|-------|--------------|
-| Layer 1 | 2.82 | Rich vocabulary (TTR: 0.42) |
-| Layer 2 | 1.80 | Strong entity coherence |
-| Layer 3 | 1.51 | Clear thematic structure |
-| Layer 4 | 4.35 | Deep cultural analysis |
-| Layer 5 | 4.50 | Complex emotional arc |
-| Layer 6 | 4.25 | Existential themes |
-| **Overall** | **3.21** | High-quality literary work |
+### Genre Comparison (L4–L6, all p < 0.001)
+
+| Layer | Canonical | Pulp | LLM-Generated | Can–LLM Gap | Cohen's d |
+|-------|-----------|------|---------------|-------------|-----------|
+| L4 Cultural | 3.96 ± 0.41 | 3.83 ± 0.36 | 2.55 ± 0.62 | +1.41 (35.6%) | **2.68** |
+| L5 Emotional | 4.15 ± 0.31 | 4.04 ± 0.24 | 3.36 ± 0.59 | +0.79 (19.1%) | **1.68** |
+| L6 Existential | 3.95 ± 0.57 | 3.68 ± 0.56 | 2.59 ± 0.57 | +1.36 (34.5%) | **2.40** |
+
+### Reliability Metrics
+
+| Metric | Value |
+|--------|-------|
+| Success rate | 600/600 (100%) |
+| Convergence rate (R4→R5, \|Δ\| < 0.3) | 98.8% |
+| Inter-rater agreement (MAD < 0.5) | > 94% |
+| Mode invariance (max \|content − title\|) | 0.05 |
 
 ---
 
@@ -149,10 +156,10 @@ Example output for Kafka's "Metamorphosis":
 - **Existential**: GPT-5 / GPT-5-mini
 
 #### 3. Corpus
-54 classic short stories from world literature:
-- 19th century: Poe, Chekhov, Maupassant
-- Modern: Kafka, Hemingway, Borges, Joyce
-- Contemporary: Saunders, Lahiri
+100 short stories across three quality categories:
+- **Canonical (50)**: Poe, Chekhov, Maupassant, Kafka, Hemingway, Borges, Joyce, Lu Xun, Garcia Marquez, Woolf, and others
+- **Pulp Fiction (30)**: Commercial genre fiction from *All-Story*, *Weird Tales*, *Black Mask* (1880–1950)
+- **LLM-Generated (20)**: Multi-model generated stories with stratified quality tiers
 
 ---
 
@@ -168,23 +175,25 @@ Example output for Kafka's "Metamorphosis":
 
 ## 🔬 Research
 
+> **Note**: The associated paper is currently under review. Citation information will be updated upon acceptance.
+
 ### Citation
 
 If you use this framework in your research, please cite:
 
 ```bibtex
-@article{sage2025,
-  title={SAGE: A Six-Layer Framework for Narrative Quality Assessment},
+@article{sage2026,
+  title={SAGE: Hierarchical LLM-Based Literary Evaluation through Ontology-Grounded Interpretive Dimensions},
   author={[Authors]},
-  journal={[Conference/Journal]},
-  year={2025}
+  journal={[Under Review]},
+  year={2026}
 }
 ```
 
 ### Publications
 
-- Paper: [Link TBD]
-- Dataset: 54 curated classic short stories
+- Paper: Under review
+- Dataset: 100 short stories (50 canonical + 30 pulp + 20 LLM-generated), see [`results/`](results/)
 - Code: This repository
 
 ---

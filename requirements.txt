@@ -1,5 +1,4 @@
 # Requirements for SAGE Framework - Literary Evaluation
-# Paper: AAAI 2025
 # Updated: 2025-11-22
 
 # ============================================================================
