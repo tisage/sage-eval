@@ -98,48 +98,7 @@ Full results for 600 evaluations (100 stories × 3 layers × 2 modes) are in [`r
 
 ### Evaluation Pipeline
 
-```
-┌─────────────────────────────────────────────────────────┐
-│                  SAGE Evaluation Pipeline                │
-├─────────────────────────────────────────────────────────┤
-│                                                           │
-│  Input: Literary Text                                    │
-│      │                                                    │
-│      ▼                                                    │
-│  ┌──────────────────────────────────────────┐           │
-│  │  Layer 1: Lexical Analysis (Rule-based)  │           │
-│  │  • TTR, Hapax, Word Length, Formality    │           │
-│  └──────────────┬───────────────────────────┘           │
-│                 ▼                                         │
-│  ┌──────────────────────────────────────────┐           │
-│  │  Layer 2: Syntactic (Rule-based)         │           │
-│  │  • Entity Coherence, Event Sequences     │           │
-│  └──────────────┬───────────────────────────┘           │
-│                 ▼                                         │
-│  ┌──────────────────────────────────────────┐           │
-│  │  Layer 3: Semantic (Rule-based)          │           │
-│  │  • Theme Extraction, Semantic Networks   │           │
-│  └──────────────┬───────────────────────────┘           │
-│                 ▼                                         │
-│  ┌──────────────────────────────────────────┐           │
-│  │  Layer 4: Cultural (LLM)                 │           │
-│  │  • Cultural Depth, Context Analysis      │           │
-│  └──────────────┬───────────────────────────┘           │
-│                 ▼                                         │
-│  ┌──────────────────────────────────────────┐           │
-│  │  Layer 5: Emotional (LLM)                │           │
-│  │  • Emotional Arc, Affective Impact       │           │
-│  └──────────────┬───────────────────────────┘           │
-│                 ▼                                         │
-│  ┌──────────────────────────────────────────┐           │
-│  │  Layer 6: Existential (LLM)              │           │
-│  │  • Philosophical Depth, Life Concerns    │           │
-│  └──────────────┬───────────────────────────┘           │
-│                 ▼                                         │
-│  Output: Six-Layer Scores + Overall Score               │
-│                                                           │
-└───────────────────────────────────────────────────────────┘
-```
+![SAGE Framework Diagram](pic/framework_diagram.drawio.png)
 
 ### Key Components
 
