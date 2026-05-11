@@ -10,7 +10,7 @@ A comprehensive framework for multi-dimensional narrative quality assessment com
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
 [![Paper](https://img.shields.io/badge/arXiv-2605.07102-b31b1b.svg)](https://arxiv.org/abs/2605.07102)
 
-**[🚀 Quick Start](#-quick-start)** • [Architecture](#-architecture) • [Results](#-experimental-results) • [Research](#-research)
+**[🚀 Quick Start](#-quick-start)** • [Architecture](#-architecture) • [Research](#-research)
 
 </div>
 
@@ -71,27 +71,6 @@ PYTHONPATH=src ./.venv/bin/python scripts/analyze_results.py -o report.txt
 
 ---
 
-## 📊 Experimental Results
-
-Full results for 600 evaluations (100 stories × 3 layers × 2 modes) are in [`results/`](results/).
-
-### Genre Comparison (L4–L6, all p < 0.001)
-
-| Layer | Canonical | Pulp | LLM-Generated | Can–LLM Gap | Cohen's d |
-|-------|-----------|------|---------------|-------------|-----------|
-| L4 Cultural | 3.96 ± 0.41 | 3.83 ± 0.36 | 2.55 ± 0.62 | +1.41 (35.6%) | **2.68** |
-| L5 Emotional | 4.15 ± 0.31 | 4.04 ± 0.24 | 3.36 ± 0.59 | +0.79 (19.1%) | **1.68** |
-| L6 Existential | 3.95 ± 0.57 | 3.68 ± 0.56 | 2.59 ± 0.57 | +1.36 (34.5%) | **2.40** |
-
-### Reliability Metrics
-
-| Metric | Value |
-|--------|-------|
-| Success rate | 600/600 (100%) |
-| Convergence rate (R4→R5, \|Δ\| < 0.3) | 98.8% |
-| Inter-rater agreement (MAD < 0.5) | > 94% |
-| Mode invariance (max \|content − title\|) | 0.05 |
-
 ---
 
 ## 🏗️ Architecture
@@ -123,13 +102,12 @@ Full results for 600 evaluations (100 stories × 3 layers × 2 modes) are in [`r
 ## 📚 Documentation
 
 - **[config/llm_models.yaml](config/llm_models.yaml)** - LLM model configurations
-- **[results/](results/)** - Full evaluation results (600 evaluations)
 
 ---
 
 ## 🔬 Research
 
-> **Note**: The associated paper is currently under review. Citation information will be updated upon acceptance.
+> **Paper**: Available on arXiv. Full experimental results and analysis are reported in the paper.
 
 ### Citation
 
@@ -150,7 +128,7 @@ If you use this framework in your research, please cite:
 ### Publications
 
 - Paper: [arXiv:2605.07102](https://arxiv.org/abs/2605.07102) (under review)
-- Dataset: 100 short stories (50 canonical + 30 pulp + 20 LLM-generated), see [`results/`](results/)
+- Dataset: 100 short stories (50 canonical + 30 pulp + 20 LLM-generated)
 - Code: This repository
 
 ---
