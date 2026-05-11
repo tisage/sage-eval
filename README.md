@@ -8,7 +8,7 @@ A comprehensive framework for multi-dimensional narrative quality assessment com
 
 [![Python](https://img.shields.io/badge/Python-3.11+-blue.svg)](https://python.org)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
-[![Paper](https://img.shields.io/badge/Paper-Under%20Review-orange.svg)](#)
+[![Paper](https://img.shields.io/badge/arXiv-2605.07102-b31b1b.svg)](https://arxiv.org/abs/2605.07102)
 
 **[🚀 Quick Start](#-quick-start)** • [Architecture](#-architecture) • [Results](#-experimental-results) • [Research](#-research)
 
@@ -136,17 +136,20 @@ Full results for 600 evaluations (100 stories × 3 layers × 2 modes) are in [`r
 If you use this framework in your research, please cite:
 
 ```bibtex
-@article{sage2026,
-  title={SAGE: Hierarchical LLM-Based Literary Evaluation through Ontology-Grounded Interpretive Dimensions},
-  author={[Authors]},
-  journal={[Under Review]},
-  year={2026}
+@misc{wang2026sagehierarchicalllmbasedliterary,
+      title={SAGE: Hierarchical LLM-Based Literary Evaluation through Ontology-Grounded Interpretive Dimensions},
+      author={Tianyu Wang and Nianjun Zhou},
+      year={2026},
+      eprint={2605.07102},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2605.07102},
 }
 ```
 
 ### Publications
 
-- Paper: Under review
+- Paper: [arXiv:2605.07102](https://arxiv.org/abs/2605.07102) (under review)
 - Dataset: 100 short stories (50 canonical + 30 pulp + 20 LLM-generated), see [`results/`](results/)
 - Code: This repository
 
