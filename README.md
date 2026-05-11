@@ -71,7 +71,6 @@ PYTHONPATH=src ./.venv/bin/python scripts/analyze_results.py -o report.txt
 
 ---
 
----
 
 ## 🏗️ Architecture
 
@@ -149,12 +148,6 @@ If you use this framework in your research, please cite:
 - [x] OpenAI GPT-5-mini API compatibility
 - [x] Temperature parameter handling
 - [x] Complete evaluation pipeline verification
-
----
-
-## 🤝 Contributing
-
-Contributions welcome! Feel free to open an issue or submit a pull request.
 
 ---
 
