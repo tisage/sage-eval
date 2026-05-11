@@ -1,5 +1,4 @@
 # SAGE Framework - LLM Model Configuration
-# 配置用于Layer 4-6的LLM模型
 
 # Development mode configuration (Mock LLM)
 development:
